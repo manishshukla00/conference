@@ -2,45 +2,64 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full md:w-3/4 md:mx-auto my-8 p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div>
-        <h2 className="text-4xl text-[#777777] mb-4">About UU</h2>
-        <p className="text-lg">
-          Established with the visionary goal of becoming the foremost
-          educational group globally, United university has successfully evolved
-          into one of the country's leading educational institutions.
-          Inaugurating its inaugural campus in Prayagraj in 2001, UU has
-          dynamically flourished within a challenging environment, boasting
-          state-of-the-art campuses. <br />
-          Its distinguished faculty, comprising alumni from esteemed
-          institutions like IITs, has propelled UU to leadership through
-          distinctive teaching methodologies, pioneering research endeavors, and
-          a commitment to providing high-quality placements. <br /> This
-          transformative journey underscores UU's dedication to excellence,
-          solidifying its position as the preferred destination for top-tier
-          education with global recognition.
-        </p>
+    <div className="flex flex-col md:flex-row items-center justify-between p-6 bg-gray-100">
+      {/* Left Side - Logos */}
+      <div className="flex flex-col items-center md:w-1/3 space-y-4">
+        <img
+          src="https://icicct.in/images/tandf.png"
+          alt="Logo 1"
+          className="w-40 h-20"
+        />
+        <img
+          src="https://icicct.in/images/scopus.png"
+          alt="Logo 2"
+          className="w-40 h-40"
+        />
+        <img
+          src="https://icicct.in/images/logo_circle.jpg"
+          alt="Logo 3"
+          className="w-80 h-80"
+        />
       </div>
-      <div>
-        <h2 className="text-4xl text-[#777777] mb-4">About UU</h2>
-        <p className="text-lg">
-          Established with the vision to be the most preferred educational
-          institution with global recognition, United University has come out to
-          be one of the leading technical institution of the country. The group
-          commenced its journey in the year 2001 with strength of only 100
-          students and with two programs. Today, the campus has more than 15000
-          students across 15 programs.
-          <br />
-          United university is committed to maintain the numerous positions in
-          placements in the north India region and ensuring that every United
-          university gets the best possible placement opportunities and multiple
-          job offers in hand with hefty pay packages.
-          <br />
-          With persistent efforts and untiring commitment displayed by the team
-          United university, among the aspiring students and is now attracting
-          the best talent desirous of pursuing technical education from far and
-          wide areas across the globe.
+
+      {/* Right Side - Text and Buttons */}
+      <div className="md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left p-6">
+        <h2 className="text-2xl font-bold text-gray-800">About The ICICCT</h2>
+        <p className="text-gray-600 mt-4">
+          ICICCT-2024 is a non-profit conference and the objective is to provide
+          a platform for academicians, researchers, scholars, and students from
+          various institutions, universities, and industries in India and abroad
+          to exchange their research and innovative ideas in the field of Cloud,
+          Communication, and Internet of Things.
         </p>
+        <p className="text-gray-600 text-xl mt-4">
+          We invite all students, research scholars, academicians, engineers,
+          scientists, and industrialists working in the field of Intelligent
+          Computing, Communications, and Techniques from all over the world. We
+          warmly welcome all the authors to submit their original research in
+          the upcoming conference ICICCT-2024 to share their knowledge and
+          experience among each other in collaboration with JNU and EVedant
+          Foundation.
+        </p>
+        <p className="text-blue-800 font-bold text-2xl mt-4">
+          Papers submitted to ICICCT-2024 will undergo a strict double-blind
+          review process. All accepted and presented papers will be published in
+          the ICICCT-2024 Conference Proceedings, which will be published by
+          Taylor & Francis and indexed in Scopus.
+        </p>
+
+        {/* Buttons */}
+        <div className="mt-6 flex space-x-4">
+          <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
+            SUBMIT ARTICLE
+          </button>
+          <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
+            DOC TEMPLATE
+          </button>
+          <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
+            LATEX TEMPLATE
+          </button>
+        </div>
       </div>
     </div>
   );

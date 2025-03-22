@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to={"/"} onClick={toggleMenu} className="text-black py-4">
-                Archive
+                About
               </Link>
             </li>
             <li>
