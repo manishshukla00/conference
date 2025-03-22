@@ -9,8 +9,8 @@ const Event = () => {
         International Conference on Computational Method in Science & Technology
       </h2>
       <p className="text-lg">
-        Chandigarh Engineering College, CGC Landran is pleased to organize the
-        4th International Conference on Computational Methods in Science &
+        United University, CGC Landran is pleased to organize the 4th
+        International Conference on Computational Methods in Science &
         Technology (ICCMST 2024) on 2-3 May 2024.
         <br />
         ICCMST 2024 is an international forum for researchers, engineers,
