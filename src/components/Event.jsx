@@ -2,38 +2,24 @@ import React from "react";
 
 const Event = () => {
   return (
-    <div className="w-full md:w-3/4 flex flex-col mx-auto p-4">
-      <h2 className="text-2xl text-[#fd7e14] font-bold">ABOUT EVENT</h2>
-
-      <h2 className="text-4xl font-bold my-4">
-        International Conference on Computational Method in Science & Technology
-      </h2>
-      <p className="text-lg">
-        United University, CGC Landran is pleased to organize the 4th
-        International Conference on Computational Methods in Science &
-        Technology (ICCMST 2024) on 2-3 May 2024.
-        <br />
-        ICCMST 2024 is an international forum for researchers, engineers,
-        academicians as well as industrial professionals from all over the world
-        to share and publicize their research work and development activities in
-        various research areas.
-        <br />
-        <br />
-        This conference provides opportunities to our college students & faculty
-        members to interact with the external researchers and delegates to
-        exchange new ideas and application experiences.
-        <br />
-        <br />
-        It also helps to find global partners for establishing educational and
-        research relations and for future collaboration.
-        <br />
-        <br />
-        The conference holistically aims to promote translation of basic
-        research into applied investigation and convert applied investigation
-        into practice. This conference will also create awareness about the
-        importance of basic scientific research in related fields and
-        synchronizing with the product market.
-      </p>
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-indigo-300 p-6">
+      <div className="max-w-4xl mx-auto font-serif bg-purple-100 rounded-lg p-8">
+        <h1 className="text-4xl font-extrabold text-center text-indigo-800 mb-6">
+          About the Conference
+        </h1>
+        <p className="text-lg text-gray-800 leading-relaxed mb-6">
+          Human tendency has always remained dynamic and has led to various revolutions for mankind. Nineteenth century was the era of machine revolution, twentieth century was the era of electronic revolution but the 21st century is time of Intelligent Computing and Communication Technology (ICCT) revolution. The peculiar thing with ICCT revolution is that it is globalized while earlier revolutions belonged only to some countries. ICCT is touching each and every walk of life. Now every field of life such as industrial, rural development, medical, economical, even social field are looking forward for help from CIT for their survival and growth.
+        </p>
+        <p className="text-lg text-gray-800 leading-relaxed mb-6">
+          ICCT in itself consists of wide range of possibilities which are increasing exponentially day by day. To cope up with increasing global need for high performance, more efficiency, and optimized output; advance computing technologies are the growing research area in the field of ICCT. Although various high performance models such as cluster computing, Grid computing and cloud computing have been proposed but these models are still looking for big hands in research. So, Intelligent Computing has been one of the most promising research areas throughout the globe for some decades now.
+        </p>
+        <p className="text-lg text-gray-800 leading-relaxed mb-6">
+          With this thought in mind, Department of Computer Science and Engineering, United University, Prayagraj, Uttar Pradesh (India) has planned to bring together the Intelligent Computing research community through 1st IEEE International Conference on Intelligent Computing and Communication Technology (AICT-2025), July 18-19, 2025.
+        </p>
+        <p className="text-lg text-gray-800 leading-relaxed">
+          AICT-2025 is being organized with the objective of bringing together researchers, developers, and practitioners from academia and industry working in the area of intelligent computing and communication technologies. AICT-2025 aims to provide an international and interdisciplinary forum for the Computer Science and Technology research community to explore the frontier of science and technology in intelligent computing, emerging technologies, data science, machine learning, deep learning, and intelligent machines. English is the official language of the conference.
+        </p>
+      </div>
     </div>
   );
 };
