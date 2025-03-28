@@ -53,7 +53,8 @@ const Callforpapers = () => {
       ],
     },
     {
-      title: "Track-3: Applications of Artificial Intelligence in Interdisciplinary Areas",
+      title:
+        "Track-3: Applications of Artificial Intelligence in Interdisciplinary Areas",
       topics: [
         "Applications of AI in Manufacturing Industry",
         "Applications of AI in preventive maintenance",
@@ -176,8 +177,8 @@ const Callforpapers = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-6">
-      <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-4">
+      <div className="max-w-5xl mx-auto bg-gradient-to-br from-orange-100 via-orange-200 to-orange-300 mt-20 shadow-lg rounded-lg p-8">
         <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6">
           Call for Papers
         </h1>
@@ -205,4 +206,3 @@ const Callforpapers = () => {
 };
 
 export default Callforpapers;
-
