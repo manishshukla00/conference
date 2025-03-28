@@ -25,7 +25,7 @@ const Carousel = () => {
           (AICCT-2025)
         </h2>
         <p className="text-lg md:text-2xl font-medium mb-4 text-green-300">
-          12-13 July, Organized by
+          12-13 September, Organized by
         </p>
         <p className="text-lg md:text-2xl font-medium text-pink-300">
           Department of Computer Science & Engineering

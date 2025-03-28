@@ -15,18 +15,14 @@ const About = () => {
           alt="Logo 2"
           className="w-40 h-40"
         />
-        <img
-          src="https://icicct.in/images/logo_circle.jpg"
-          alt="Logo 3"
-          className="w-80 h-80"
-        />
+        
       </div>
 
       {/* Right Side - Text and Buttons */}
       <div className="md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left p-6">
         <h2 className="text-2xl font-bold text-gray-800">About The ICICCT</h2>
         <p className="text-gray-600 mt-4">
-          ICICCT-2024 is a non-profit conference and the objective is to provide
+          AICCT-2025 is a non-profit conference and the objective is to provide
           a platform for academicians, researchers, scholars, and students from
           various institutions, universities, and industries in India and abroad
           to exchange their research and innovative ideas in the field of Cloud,
@@ -37,15 +33,14 @@ const About = () => {
           scientists, and industrialists working in the field of Intelligent
           Computing, Communications, and Techniques from all over the world. We
           warmly welcome all the authors to submit their original research in
-          the upcoming conference ICICCT-2024 to share their knowledge and
+          the upcoming conference AICCT-2025 to share their knowledge and
           experience among each other in collaboration with JNU and EVedant
           Foundation.
         </p>
         <p className="text-blue-800 font-bold text-2xl mt-4">
-          Papers submitted to ICICCT-2024 will undergo a strict double-blind
+          Papers submitted to AICCT-2025 will undergo a strict double-blind
           review process. All accepted and presented papers will be published in
-          the ICICCT-2024 Conference Proceedings, which will be published by
-          Taylor & Francis and indexed in Scopus.
+          the AICCT-2025 Conference Proceedings, which will be indexed in Scopus.
         </p>
 
         {/* Buttons */}
