@@ -25,7 +25,7 @@ const About = () => {
 
         {/* Right Side - Text */}
         <div className="md:w-full flex flex-col items-center md:items-start text-center md:text-left space-y-6">
-          <h2 className="text-3xl font-bold text-gray-800">About The ICICCT</h2>
+          <h2 className="text-3xl font-bold text-gray-800">About The AICCT</h2>
           <p className="text-gray-600 text-justify">
             AICCT-2025 is a non-profit conference and the objective is to
             provide a platform for academicians, researchers, scholars, and

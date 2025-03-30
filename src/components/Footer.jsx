@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-bold mb-4">About ICICCT</h3>
+            <h3 className="text-xl font-bold mb-4">About AICCT</h3>
             <p className="text-gray-400 text-sm leading-relaxed text-justify">
-              ICICCT 2025 is an international conference that brings together
+              AICCT 2025 is an international conference that brings together
               researchers, academicians, and industry professionals to discuss
               the latest advancements in computing, communication, and
               technology.
@@ -70,7 +70,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>Mon - Fri: 9 AM - 4 PM</li>
               <li>+91 9759111170</li>
-              <li>ICICCT2025@cgc.edu.in</li>
+              <li>AICCT2025@cgc.edu.in</li>
               <li>
                 United Group of Colleges, Prayagraj, Uttar Pradesh (INDIA)
               </li>
@@ -119,7 +119,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-          &copy; 2025 ICICCT | Developed by Dr. Sanjeev Gupta. All Rights
+          &copy; 2025 AICCT | Developed by Dr. Sanjeev Gupta. All Rights
           Reserved.
         </div>
       </div>

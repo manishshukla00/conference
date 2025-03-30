@@ -5,11 +5,11 @@ const About = () => {
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8">
       <div className="max-w-7xl mx-auto mt-20 pt-8">
         <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6">
-          About <span className="text-pink-500">ICICCT 2025</span>
+          About <span className="text-pink-500">AICCT 2025</span>
         </h1>
         <p className="text-lg text-gray-800 leading-relaxed mb-8 text-justify">
           The International Conference on Innovations in Computing,
-          Communication, and Technology (ICICCT) 2025 is a premier event that
+          Communication, and Technology (AICCT) 2025 is a premier event that
           brings together researchers, academicians, and industry professionals
           to discuss the latest advancements in computing, communication, and
           technology.
@@ -50,7 +50,7 @@ const About = () => {
         {/* Why Attend Section */}
         <div className="mt-12">
           <h2 className="text-3xl font-bold text-purple-800 mb-6 text-center">
-            Why Attend ICICCT 2025?
+            Why Attend AICCT 2025?
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <ul className="list-disc list-inside text-gray-700 space-y-4">
