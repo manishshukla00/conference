@@ -15,31 +15,39 @@ const About = () => {
           technology.
         </p>
 
+        {/* Cards Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Section 1 */}
-          <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-            <h2 className="text-2xl font-bold text-purple-700 mb-4">
-              Our Mission
-            </h2>
-            <p className="text-gray-700 text-justify">
-              Our mission is to provide a platform for researchers and
-              professionals to present their innovative ideas and solutions to
-              real-world challenges in computing, communication, and technology.
-            </p>
+          <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform">
+            <div className="bg-white rounded-lg p-6 flex flex-col items-center">
+              <h2 className="text-2xl font-bold text-purple-700 mb-4">
+                Our Mission
+              </h2>
+              <p className="text-gray-700 text-justify">
+                Our mission is to provide a platform for researchers and
+                professionals to present their innovative ideas and solutions to
+                real-world challenges in computing, communication, and
+                technology.
+              </p>
+            </div>
           </div>
 
           {/* Section 2 */}
-          <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-            <h2 className="text-2xl font-bold text-purple-700 mb-4">
-              Our Vision
-            </h2>
-            <p className="text-gray-700 text-justify">
-              We envision a future where technology drives sustainable
-              development and innovation, creating a better world for everyone.
-            </p>
+          <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform">
+            <div className="bg-white rounded-lg p-6 flex flex-col items-center">
+              <h2 className="text-2xl font-bold text-purple-700 mb-4">
+                Our Vision
+              </h2>
+              <p className="text-gray-700 text-justify mb-6">
+                We envision a future where technology drives sustainable
+                development and innovation, creating a better world for
+                everyone.
+              </p>
+            </div>
           </div>
         </div>
 
+        {/* Why Attend Section */}
         <div className="mt-12">
           <h2 className="text-3xl font-bold text-purple-800 mb-6 text-center">
             Why Attend ICICCT 2025?

@@ -99,32 +99,36 @@ const committeeData = [
 
 const CommitteMember = () => {
   return (
-    <div className="p-6 bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300">
-      <h1 className="text-4xl font-extrabold text-center mt-20 mb-8 pt-8 text-blue-800 font-serif">
-        Conference Committees
-      </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {committeeData.map((committee, index) => (
-          <div
-            key={index}
-            className="bg-gradient-to-br from-orange-100 via-orange-200 to-orange-300 text-blue-800 p-6 rounded-lg shadow-lg transform transition-transform hover:translate-y-2 hover:shadow-2xl"
-          >
-            <h2 className="text-2xl font-bold mb-4 text-center font-sans">
-              {committee.title}
-            </h2>
-            <ul className="space-y-2">
-              {committee.members.map((member, idx) => (
-                <li
-                  key={idx}
-                  className="text-lg text-amber-950 font-medium flex items-start"
-                >
-                  <span className="mr-2 font-sans">👉</span>
-                  {member}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8">
+      <div className="max-w-7xl mx-auto pt-20">
+        <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6 pt-4">
+          Conference Committees
+        </h1>
+        <p className="text-lg text-gray-800 leading-relaxed mb-8 text-center">
+          Meet the esteemed members of the conference committees who are
+          contributing to the success of AICT-2025.
+        </p>
+
+        {/* Responsive Cards for Committee Members */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {committeeData.map((committee, index) => (
+            <div
+              key={index}
+              className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform"
+            >
+              <div className="bg-white rounded-lg p-4 h-full">
+                <h2 className="text-xl font-bold text-purple-700 mb-4 text-center">
+                  {committee.title}
+                </h2>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                  {committee.members.map((member, idx) => (
+                    <li key={idx}>{member}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
