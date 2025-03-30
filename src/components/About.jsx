@@ -9,7 +9,7 @@ const About = () => {
           <img
             src="/images/Headlogo.jpg"
             alt="ICICCT Logo"
-            className="w-32 h-32 object-contain"
+            className="w-40 h-40 object-contain"
           />
           <img
             src="https://icicct.in/images/tandf.png"
