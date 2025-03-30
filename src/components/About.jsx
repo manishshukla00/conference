@@ -2,29 +2,29 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gray-100">
-      <div className="flex flex-col md:flex-row items-center justify-between">
+    <div className="w-full px-4 sm:px-6 lg:px-8 py-8 bg-gray-100">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left Side - Logos */}
         <div className="flex flex-col items-center md:items-start md:w-1/3 space-y-4">
           <img
             src="/images/Headlogo.jpg"
-            alt="ICICCT Logo"
-            className="w-40 h-40 object-contain"
+            alt="United University Logo"
+            className="w-40 h-40 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
           <img
             src="https://icicct.in/images/tandf.png"
             alt="Taylor & Francis Logo"
-            className="w-40 h-20 object-contain"
+            className="w-40 h-20 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
           <img
             src="https://icicct.in/images/scopus.png"
             alt="Scopus Logo"
-            className="w-40 h-40 object-contain"
+            className="w-40 h-40 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
         </div>
 
         {/* Right Side - Text */}
-        <div className="md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left space-y-6">
+        <div className="md:w-full flex flex-col items-center md:items-start text-center md:text-left space-y-6">
           <h2 className="text-3xl font-bold text-gray-800">About The ICICCT</h2>
           <p className="text-gray-600 text-justify">
             AICCT-2025 is a non-profit conference and the objective is to

@@ -99,7 +99,7 @@ const committeeData = [
 
 const CommitteMember = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300">
       <h1 className="text-4xl font-extrabold text-center mt-20 mb-8 pt-8 text-blue-800 font-serif">
         Conference Committees
       </h1>

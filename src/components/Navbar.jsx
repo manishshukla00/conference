@@ -30,37 +30,37 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-6 font-bold">
           <Link
             to="/"
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
           >
             About
           </Link>
           <Link
             to="/committee-member"
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
           >
             Committee
           </Link>
           <Link
             to="/callforpapers"
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
           >
             Call For Papers
           </Link>
           <Link
             to="/speakers"
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
           >
             Speakers
           </Link>
           <Link
             to="/"
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
           >
             Contact
           </Link>
@@ -79,46 +79,55 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-0 left-0 w-full h-screen bg-purple-800 text-white flex flex-col items-center justify-center space-y-6 z-40">
+        <div className="absolute top-0 left-0 w-full h-screen bg-black bg-opacity-80 text-white flex flex-col items-center justify-center space-y-6 z-40 transition-all duration-300 ease-in-out">
+          {/* Close Button */}
+          <button
+            onClick={toggleMenu}
+            className="absolute top-4 right-6 text-3xl text-white hover:text-purple-400 transition-colors"
+          >
+            ✖
+          </button>
+
+          {/* Menu Links */}
           <Link
             to="/"
             onClick={toggleMenu}
-            className="text-xl hover:text-purple-300 transition-colors"
+            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
           >
             Home
           </Link>
           <Link
             to="/about"
             onClick={toggleMenu}
-            className="text-xl hover:text-purple-300 transition-colors"
+            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
           >
             About
           </Link>
           <Link
             to="/committee-member"
             onClick={toggleMenu}
-            className="text-xl hover:text-purple-300 transition-colors"
+            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
           >
             Committee
           </Link>
           <Link
             to="/callforpapers"
             onClick={toggleMenu}
-            className="text-xl hover:text-purple-300 transition-colors"
+            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
           >
             Call For Papers
           </Link>
           <Link
             to="/speakers"
             onClick={toggleMenu}
-            className="text-xl hover:text-purple-300 transition-colors"
+            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
           >
             Speakers
           </Link>
           <Link
             to="/"
             onClick={toggleMenu}
-            className="text-xl hover:text-purple-300 transition-colors"
+            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
           >
             Contact
           </Link>
