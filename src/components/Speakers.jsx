@@ -70,7 +70,7 @@ const Speakers = () => {
                     {card.text[0]}
                   </h3>
                   {card.text.slice(1).map((line, i) => (
-                    <p key={i} className="text-gray-600">
+                    <p key={i} className="text-gray-600 p-2">
                       {line}
                     </p>
                   ))}

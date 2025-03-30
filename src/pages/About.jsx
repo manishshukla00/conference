@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6">
           About <span className="text-pink-500">ICICCT 2025</span>
         </h1>
-        <p className="text-lg text-gray-800 leading-relaxed mb-8 text-center">
+        <p className="text-lg text-gray-800 leading-relaxed mb-8 text-justify">
           The International Conference on Innovations in Computing,
           Communication, and Technology (ICICCT) 2025 is a premier event that
           brings together researchers, academicians, and industry professionals
@@ -21,7 +21,7 @@ const About = () => {
             <h2 className="text-2xl font-bold text-purple-700 mb-4">
               Our Mission
             </h2>
-            <p className="text-gray-700 text-center">
+            <p className="text-gray-700 text-justify">
               Our mission is to provide a platform for researchers and
               professionals to present their innovative ideas and solutions to
               real-world challenges in computing, communication, and technology.
@@ -33,7 +33,7 @@ const About = () => {
             <h2 className="text-2xl font-bold text-purple-700 mb-4">
               Our Vision
             </h2>
-            <p className="text-gray-700 text-center">
+            <p className="text-gray-700 text-justify">
               We envision a future where technology drives sustainable
               development and innovation, creating a better world for everyone.
             </p>

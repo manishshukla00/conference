@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Carousel />
       <Timer />
-      <ImportantDates /> {/* Corrected the component name */}
+      <ImportantDates />
       <About />
       <Speakers />
     </div>

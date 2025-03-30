@@ -9,7 +9,7 @@ const Footer = () => {
           {/* About Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">About ICICCT</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-400 text-sm leading-relaxed text-justify">
               ICICCT 2025 is an international conference that brings together
               researchers, academicians, and industry professionals to discuss
               the latest advancements in computing, communication, and
