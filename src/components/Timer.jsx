@@ -45,7 +45,7 @@ const Timer = () => {
   return (
     <div className="w-full px-6 py-8 flex flex-col items-center bg-gradient-to-br from-purple-200 via-purple-300 to-purple-400 rounded-lg shadow-xl">
       <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 mb-6 text-center drop-shadow-lg">
-        Countdown to ICICCT 2025
+        Countdown to AICCT 2025
       </h2>
       <div className="flex flex-wrap justify-center gap-8 text-center">
         {/* Days */}
