@@ -100,7 +100,7 @@ const committeeData = [
 const CommitteMember = () => {
   return (
     <div className="p-6">
-      <h1 className="text-4xl font-extrabold text-center mt-20 mb-8 text-blue-800 font-serif">
+      <h1 className="text-4xl font-extrabold text-center mt-20 mb-8 pt-8 text-blue-800 font-serif">
         Conference Committees
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

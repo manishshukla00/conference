@@ -1,148 +1,130 @@
 // Navbar.js
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <>
-      <div className="absolute top-0 left-0 w-full z-50">
-        {/* Sliding Menu */}
-        <div
-          className={`w-full h-full fixed top-0 right-0 bg-white transition-transform transform z-20 ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
-          }`}
-        >
-          <ul className="flex flex-col items-center justify-around h-full">
-            <li>
-              <Link
-                to={"/"}
-                onClick={toggleMenu}
-                className="text-black py-4 hover:text-purple-600 transition-colors"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/"}
-                onClick={toggleMenu}
-                className="text-black py-4 hover:text-purple-600 transition-colors"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/committee-member"}
-                onClick={toggleMenu}
-                className="text-black py-4 hover:text-purple-600 transition-colors"
-              >
-                Committee
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/"}
-                onClick={toggleMenu}
-                className="text-black py-4 hover:text-purple-600 transition-colors"
-              >
-                Registration
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/callforpapers"}
-                onClick={toggleMenu}
-                className="text-black py-4 hover:text-purple-600 transition-colors"
-              >
-                Call For Papers
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/"}
-                onClick={toggleMenu}
-                className="text-black py-4 hover:text-purple-600 transition-colors"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Navbar */}
-        <nav className="bg-black bg-opacity-20 text-white p-2">
-          <div className="w-3/4 mx-auto flex justify-between items-center">
-            {/* Logo */}
-            <div className="w-25 bg-white flex items-center">
+    <div className="w-full bg-black bg-opacity-20 backdrop-blur-md absolute top-0 left-0 z-50">
+      <nav className="w-full max-w-screen-xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4">
+        {/* Logo */}
+        <div className="flex items-center">
+          <Link to="/">
+            <div className="w-20 h-20 bg-white p-1 rounded-full shadow-md hover:scale-110 transition-transform">
               <img
                 src="/images/Headlogo.jpg"
-                alt="Logo"
-                className="w-20 h-20 rounded-full shadow-lg hover:scale-110 transition-transform"
+                alt="ICICCT Logo"
+                loading="lazy"
+                className="w-full h-full object-cover rounded-full"
               />
             </div>
+          </Link>
+        </div>
 
-            {/* Menu icon for small screens */}
-            <div className="md:hidden">
-              <div className="flex items-center" onClick={toggleMenu}>
-                {isMenuOpen ? (
-                  <FaTimes className="text-white text-2xl cursor-pointer z-40" />
-                ) : (
-                  <FaBars className="text-white text-2xl cursor-pointer" />
-                )}
-              </div>
-            </div>
+        {/* Desktop Navigation Links */}
+        <div className="hidden md:flex items-center gap-6 font-bold">
+          <Link
+            to="/"
+            className="text-white hover:text-purple-400 transition-colors"
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className="text-white hover:text-purple-400 transition-colors"
+          >
+            About
+          </Link>
+          <Link
+            to="/committee-member"
+            className="text-white hover:text-purple-400 transition-colors"
+          >
+            Committee
+          </Link>
+          <Link
+            to="/callforpapers"
+            className="text-white hover:text-purple-400 transition-colors"
+          >
+            Call For Papers
+          </Link>
+          <Link
+            to="/speakers"
+            className="text-white hover:text-purple-400 transition-colors"
+          >
+            Speakers
+          </Link>
+          <Link
+            to="/"
+            className="text-white hover:text-purple-400 transition-colors"
+          >
+            Contact
+          </Link>
+        </div>
 
-            {/* Navigation links */}
-            <div className="hidden md:flex items-center gap-8 text-white font-bold">
-              <Link
-                to={"/"}
-                className="hover:text-purple-300 transition-colors"
-              >
-                Home
-              </Link>
-              <Link
-                to={"/"}
-                className="hover:text-purple-300 transition-colors"
-              >
-                About
-              </Link>
-              <Link
-                to={"/committee-member"}
-                className="hover:text-purple-300 transition-colors"
-              >
-                Committee
-              </Link>
-              <Link
-                to={"/"}
-                className="hover:text-purple-300 transition-colors"
-              >
-                Registration
-              </Link>
-              <Link
-                to={"/callforpapers"}
-                className="hover:text-purple-300 transition-colors"
-              >
-                Call For Papers
-              </Link>
-              <Link
-                to={"/"}
-                className="hover:text-purple-300 transition-colors"
-              >
-                Contact
-              </Link>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </>
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-white text-2xl focus:outline-none"
+          >
+            {isMenuOpen ? "✖" : "☰"}
+          </button>
+        </div>
+      </nav>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="absolute top-0 left-0 w-full h-screen bg-purple-800 text-white flex flex-col items-center justify-center space-y-6 z-40">
+          <Link
+            to="/"
+            onClick={toggleMenu}
+            className="text-xl hover:text-purple-300 transition-colors"
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            onClick={toggleMenu}
+            className="text-xl hover:text-purple-300 transition-colors"
+          >
+            About
+          </Link>
+          <Link
+            to="/committee-member"
+            onClick={toggleMenu}
+            className="text-xl hover:text-purple-300 transition-colors"
+          >
+            Committee
+          </Link>
+          <Link
+            to="/callforpapers"
+            onClick={toggleMenu}
+            className="text-xl hover:text-purple-300 transition-colors"
+          >
+            Call For Papers
+          </Link>
+          <Link
+            to="/speakers"
+            onClick={toggleMenu}
+            className="text-xl hover:text-purple-300 transition-colors"
+          >
+            Speakers
+          </Link>
+          <Link
+            to="/"
+            onClick={toggleMenu}
+            className="text-xl hover:text-purple-300 transition-colors"
+          >
+            Contact
+          </Link>
+        </div>
+      )}
+    </div>
   );
 };
 

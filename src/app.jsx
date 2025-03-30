@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import CommitteMember from "./pages/CommitteMember";
-import About from "./components/About";
+import About from "./pages/About";
 import Callforpapers from "./pages/Callforpapers";
+import Speakers from "./pages/Speakers";
 
 const app = () => {
   return (
@@ -16,6 +17,7 @@ const app = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/committee-member" element={<CommitteMember />} />
+          <Route path="/speakers" element={<Speakers />} />
           <Route path="/callforpapers" element={<Callforpapers />} />
           {/* <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/sponsors" element={<Sponsors />} />

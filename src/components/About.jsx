@@ -5,6 +5,7 @@ const About = () => {
     <div className="flex flex-col md:flex-row items-center justify-between p-6 bg-gray-100">
       {/* Left Side - Logos */}
       <div className="flex flex-col items-center md:w-1/3 space-y-4">
+        <img src="/images/Headlogo.jpg" alt="Logo 1" className="w-35 h-35" />
         <img
           src="https://icicct.in/images/tandf.png"
           alt="Logo 1"
@@ -15,7 +16,6 @@ const About = () => {
           alt="Logo 2"
           className="w-40 h-40"
         />
-        
       </div>
 
       {/* Right Side - Text and Buttons */}
@@ -40,7 +40,8 @@ const About = () => {
         <p className="text-blue-800 font-bold text-2xl mt-4">
           Papers submitted to AICCT-2025 will undergo a strict double-blind
           review process. All accepted and presented papers will be published in
-          the AICCT-2025 Conference Proceedings, which will be indexed in Scopus.
+          the AICCT-2025 Conference Proceedings, which will be indexed in
+          Scopus.
         </p>
 
         {/* Buttons */}

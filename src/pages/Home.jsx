@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "../components/Carousel";
 import Timer from "../components/Timer";
 import About from "../components/About";
-import ImportantDates from "../components/ImpotantDates";
+import ImportantDates from "../components/ImportantDates"; // Corrected the typo in the import
 import Speakers from "../components/Speakers";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Carousel />
       <Timer />
-      <ImportantDates />
+      <ImportantDates /> {/* Corrected the component name */}
       <About />
       <Speakers />
     </div>

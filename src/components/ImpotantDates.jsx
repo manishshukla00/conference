@@ -12,22 +12,13 @@ const ImportantDates = () => {
   ];
 
   return (
-    <div className="p-6 flex flex-col items-center justify-center">
-      {/* <h1 className="text-center">
-        Important <span>Dates</span>
-      </h1> */}
-      <div className="w-full max-w-3xl">
-        <h2 className="text-4xl font-bold text-center mb-4">
-          Important{" "}
+    <div className="w-full max-w-3xl mx-auto px-4">
+      <div className="w-full">
+        <h2 className="text-4xl font-bold text-center mb-4 pt-4">
+          Important
           <span className="text-orange-400 font-serif font-thin">Dates</span>
         </h2>
         <table className="w-full bg-purple-600 text-white rounded-lg overflow-hidden shadow-lg">
-          {/* <thead>
-            <tr className="bg-purple-700">
-              <th className="py-3 px-6 text-left">Event</th>
-              <th className="py-3 px-6 text-right">Date</th>
-            </tr>
-          </thead> */}
           <tbody>
             {dates.map((item, index) => (
               <tr

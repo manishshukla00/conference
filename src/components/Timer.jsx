@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const Timer = () => {
   const calculateTimeLeft = () => {
     const now = new Date();
-    const targetDate = new Date("july 12, 2025 00:00:00 GMT+00:00"); // Target date: july 12, 2025
+    const targetDate = new Date("July 12, 2025 00:00:00 GMT+00:00"); // Target date: July 12, 2025
     const difference = targetDate - now;
 
     if (difference > 0) {
@@ -43,26 +43,53 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="w-full md:w-3/4 mx-auto px-4 flex justify-center items-center bg-gradient-to-l from-pink-500 via-rgb-247-0-104 to-indigo-900">
-      <div className="flex justify-center gap-4 px-2 py-4 text-center md:text-4xl">
-        <div>
-          <span className="font-bold text-white">{timeLeft.days}</span>
-          <p className="text-gray-200 text-2xl">Days</p>
+    <div className="w-full px-6 py-8 flex flex-col items-center bg-gradient-to-br from-purple-200 via-purple-300 to-purple-400 rounded-lg shadow-xl">
+      <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 mb-6 text-center drop-shadow-lg">
+        Countdown to ICICCT 2025
+      </h2>
+      <div className="flex flex-wrap justify-center gap-8 text-center">
+        {/* Days */}
+        <div className="flex flex-col items-center">
+          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 drop-shadow-lg">
+            {timeLeft.days}
+          </span>
+          <p className="text-gray-900 text-lg md:text-xl font-semibold">Days</p>
         </div>
-        <span className="text-2xl text-white font-bold">:</span>
-        <div>
-          <span className="font-bold text-white">{timeLeft.hours}</span>
-          <p className="text-gray-200 text-2xl">Hours</p>
+        <span className="text-6xl md:text-7xl font-bold text-purple-900 drop-shadow-lg">
+          :
+        </span>
+        {/* Hours */}
+        <div className="flex flex-col items-center">
+          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-500 to-green-500 drop-shadow-lg">
+            {timeLeft.hours}
+          </span>
+          <p className="text-gray-900 text-lg md:text-xl font-semibold">
+            Hours
+          </p>
         </div>
-        <span className="text-2xl text-white font-bold">:</span>
-        <div>
-          <span className="font-bold text-white">{timeLeft.minutes}</span>
-          <p className="text-gray-200 text-2xl">Minutes</p>
+        <span className="text-6xl md:text-7xl font-bold text-purple-900 drop-shadow-lg">
+          :
+        </span>
+        {/* Minutes */}
+        <div className="flex flex-col items-center">
+          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 drop-shadow-lg">
+            {timeLeft.minutes}
+          </span>
+          <p className="text-gray-900 text-lg md:text-xl font-semibold">
+            Minutes
+          </p>
         </div>
-        <span className="text-2xl text-white font-bold">:</span>
-        <div>
-          <span className="font-bold text-white">{timeLeft.seconds}</span>
-          <p className="text-gray-200 text-2xl">Seconds</p>
+        <span className="text-6xl md:text-7xl font-bold text-purple-900 drop-shadow-lg">
+          :
+        </span>
+        {/* Seconds */}
+        <div className="flex flex-col items-center">
+          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 drop-shadow-lg">
+            {timeLeft.seconds}
+          </span>
+          <p className="text-gray-900 text-lg md:text-xl font-semibold">
+            Seconds
+          </p>
         </div>
       </div>
     </div>
