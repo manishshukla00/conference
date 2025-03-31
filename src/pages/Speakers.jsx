@@ -9,7 +9,7 @@ const Speakers = () => {
       department: "Department of Computer Science, University of XYZ",
     },
     {
-      name: "Prof. Sanjay Misra",
+      name: "Prof. Sanjay Mishra",
       image: "/images/sanjay-misra.png",
       designation: "Renowned Cybersecurity Specialist",
       department: "Department of IT, ABC Institute of Technology",

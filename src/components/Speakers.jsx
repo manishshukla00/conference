@@ -14,7 +14,7 @@ const Speakers = () => {
       ],
     },
     {
-      image: "images/sanjay-misra.png",
+      image: "images/sanjay-mishra.png",
       text: [
         "Prof. Sanjay Misra",
         "Renowned Cybersecurity Specialist",
