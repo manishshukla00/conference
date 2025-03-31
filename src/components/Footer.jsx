@@ -24,41 +24,46 @@ const Footer = () => {
               <li>
                 <Link
                   to="/"
-                  className="hover:text-purple-400 transition-colors"
+                  className="text-gray-400 relative hover:text-purple-400 transition-transform transform hover:scale-105 group"
                 >
                   Home
+                  <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-500 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/about"
-                  className="hover:text-purple-400 transition-colors"
+                  className="text-gray-400 relative hover:text-purple-400 transition-transform transform hover:scale-105 group"
                 >
                   About
+                  <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-500 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/committee-member"
-                  className="hover:text-purple-400 transition-colors"
+                  className="text-gray-400 relative hover:text-purple-400 transition-transform transform hover:scale-105 group"
                 >
-                  Committee Members
+                  Committee
+                  <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-500 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/speakers"
-                  className="hover:text-purple-400 transition-colors"
+                  className="text-gray-400 relative hover:text-purple-400 transition-transform transform hover:scale-105 group"
                 >
                   Speakers
+                  <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-500 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/callforpapers"
-                  className="hover:text-purple-400 transition-colors"
+                  className="text-gray-400 relative hover:text-purple-400 transition-transform transform hover:scale-105 group"
                 >
                   Call For Papers
+                  <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-500 group-hover:w-full"></span>
                 </Link>
               </li>
             </ul>
@@ -85,7 +90,7 @@ const Footer = () => {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
+                className="text-gray-400 hover:text-purple-400 transition-transform transform hover:scale-110"
               >
                 <i className="fab fa-facebook-f text-2xl"></i>
               </a>
@@ -93,7 +98,7 @@ const Footer = () => {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
+                className="text-gray-400 hover:text-purple-400 transition-transform transform hover:scale-110"
               >
                 <i className="fab fa-twitter text-2xl"></i>
               </a>
@@ -101,7 +106,7 @@ const Footer = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
+                className="text-gray-400 hover:text-purple-400 transition-transform transform hover:scale-110"
               >
                 <i className="fab fa-linkedin-in text-2xl"></i>
               </a>
@@ -109,7 +114,7 @@ const Footer = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-purple-400 transition-colors"
+                className="text-gray-400 hover:text-purple-400 transition-transform transform hover:scale-110"
               >
                 <i className="fab fa-instagram text-2xl"></i>
               </a>

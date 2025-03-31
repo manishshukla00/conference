@@ -30,39 +30,57 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-6 font-bold">
           <Link
             to="/"
-            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
+            className="relative text-white transition-transform transform hover:scale-105 group"
           >
-            Home
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Home
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
           <Link
             to="/about"
-            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
+            className="relative text-white transition-transform transform hover:scale-105 group"
           >
-            About
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              About
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
           <Link
             to="/committee-member"
-            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
+            className="relative text-white transition-transform transform hover:scale-105 group"
           >
-            Committee
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Committee
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
           <Link
             to="/callforpapers"
-            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
+            className="relative text-white transition-transform transform hover:scale-105 group"
           >
-            Call For Papers
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Call For Papers
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
           <Link
             to="/speakers"
-            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
+            className="relative text-white transition-transform transform hover:scale-105 group"
           >
-            Speakers
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Speakers
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
           <Link
             to="/"
-            className="text-white hover:text-purple-400 transition-colors transform hover:scale-105"
+            className="relative text-white transition-transform transform hover:scale-105 group"
           >
-            Contact
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Contact
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
         </div>
 
@@ -83,7 +101,7 @@ const Navbar = () => {
           {/* Close Button */}
           <button
             onClick={toggleMenu}
-            className="absolute top-4 right-6 text-3xl text-white hover:text-purple-400 transition-colors"
+            className="absolute top-4 right-6 text-3xl text-white hover:text-blue-400 transition-colors"
           >
             ✖
           </button>
@@ -92,42 +110,42 @@ const Navbar = () => {
           <Link
             to="/"
             onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Home
           </Link>
           <Link
             to="/about"
             onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             About
           </Link>
           <Link
             to="/committee-member"
             onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Committee
           </Link>
           <Link
             to="/callforpapers"
             onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Call For Papers
           </Link>
           <Link
             to="/speakers"
             onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Speakers
           </Link>
           <Link
             to="/"
             onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-purple-300 transition-colors transform hover:scale-110"
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Contact
           </Link>

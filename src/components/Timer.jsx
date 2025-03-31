@@ -43,51 +43,65 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="w-full px-6 py-8 flex flex-col items-center bg-gradient-to-br from-purple-200 via-purple-300 to-purple-400 rounded-lg shadow-xl">
-      <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 mb-6 text-center drop-shadow-lg">
+    <div className="w-full px-4 py-6 flex flex-col items-center bg-gradient-to-br from-purple-200 via-purple-300 to-purple-400 rounded-lg shadow-lg">
+      <h2 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 mb-4 text-center drop-shadow-md">
         Countdown to AICCT 2025
       </h2>
-      <div className="flex flex-wrap justify-center gap-8 text-center">
+      <div className="flex flex-wrap justify-center gap-6 text-center">
         {/* Days */}
         <div className="flex flex-col items-center">
-          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 drop-shadow-lg">
-            {timeLeft.days}
+          <span
+            className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 drop-shadow-md"
+            style={{ width: "3ch" }} // Reduced width for smaller alignment
+          >
+            {String(timeLeft.days).padStart(2, "0")}
           </span>
-          <p className="text-gray-900 text-lg md:text-xl font-semibold">Days</p>
+          <p className="text-gray-900 text-sm md:text-base font-semibold">
+            Days
+          </p>
         </div>
-        <span className="text-6xl md:text-7xl font-bold text-purple-900 drop-shadow-lg">
+        <span className="text-4xl md:text-5xl font-bold text-purple-900 drop-shadow-md">
           :
         </span>
         {/* Hours */}
         <div className="flex flex-col items-center">
-          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-500 to-green-500 drop-shadow-lg">
-            {timeLeft.hours}
+          <span
+            className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-500 to-green-500 drop-shadow-md"
+            style={{ width: "3ch" }} // Reduced width for smaller alignment
+          >
+            {String(timeLeft.hours).padStart(2, "0")}
           </span>
-          <p className="text-gray-900 text-lg md:text-xl font-semibold">
+          <p className="text-gray-900 text-sm md:text-base font-semibold">
             Hours
           </p>
         </div>
-        <span className="text-6xl md:text-7xl font-bold text-purple-900 drop-shadow-lg">
+        <span className="text-4xl md:text-5xl font-bold text-purple-900 drop-shadow-md">
           :
         </span>
         {/* Minutes */}
         <div className="flex flex-col items-center">
-          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 drop-shadow-lg">
-            {timeLeft.minutes}
+          <span
+            className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 drop-shadow-md"
+            style={{ width: "3ch" }} // Reduced width for smaller alignment
+          >
+            {String(timeLeft.minutes).padStart(2, "0")}
           </span>
-          <p className="text-gray-900 text-lg md:text-xl font-semibold">
+          <p className="text-gray-900 text-sm md:text-base font-semibold">
             Minutes
           </p>
         </div>
-        <span className="text-6xl md:text-7xl font-bold text-purple-900 drop-shadow-lg">
+        <span className="text-4xl md:text-5xl font-bold text-purple-900 drop-shadow-md">
           :
         </span>
         {/* Seconds */}
         <div className="flex flex-col items-center">
-          <span className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 drop-shadow-lg">
-            {timeLeft.seconds}
+          <span
+            className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 drop-shadow-md"
+            style={{ width: "3ch" }} // Reduced width for smaller alignment
+          >
+            {String(timeLeft.seconds).padStart(2, "0")}
           </span>
-          <p className="text-gray-900 text-lg md:text-xl font-semibold">
+          <p className="text-gray-900 text-sm md:text-base font-semibold">
             Seconds
           </p>
         </div>
