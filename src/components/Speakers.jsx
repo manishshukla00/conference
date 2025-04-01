@@ -5,31 +5,22 @@ const Speakers = () => {
 
   const cards = [
     {
-      image: "images/a.k.sing.jpeg",
-      text: [
-        "Prof. A.K. Singh",
-        "Expert in Artificial Intelligence",
-        "Department of Computer Science",
-        "University of XYZ",
-      ],
+      name: "Prof. Rajeev Kumar",
+      image: "/images/RajeevPhoto1.jpeg",
+      designation: "Expert in Artificial Intelligence",
+      department: "Department of Computer Science, University of XYZ",
     },
     {
-      image: "images/sanjay-mishra.png",
-      text: [
-        "Prof. Sanjay Misra",
-        "Renowned Cybersecurity Specialist",
-        "Department of IT",
-        "ABC Institute of Technology",
-      ],
+      name: "Prof. Sanjay Mishra",
+      image: "/images/sanjay-misra.png",
+      designation: "Renowned Cybersecurity Specialist",
+      department: "Department of IT, ABC Institute of Technology",
     },
     {
-      image: "images/sverma.jpg",
-      text: [
-        "Prof. Sekhar Verma",
-        "MNNIT Prayagraj",
-        "Expert in Data Science",
-        "Author of 50+ Research Papers",
-      ],
+      name: "Prof. Sekhar Verma",
+      image: "/images/sverma.jpg",
+      designation: "Expert in Data Science",
+      department: "MNNIT Prayagraj",
     },
   ];
 
@@ -59,22 +50,25 @@ const Speakers = () => {
         >
           {cards.map((card, index) => (
             <div key={index} className="w-full flex-shrink-0 p-4">
-              <div className="relative bg-white text-gray-800 rounded-full shadow-lg p-6 hover:scale-105 transition-transform duration-300 flex flex-col items-center">
+              <div className="relative bg-white text-gray-800 rounded-lg shadow-lg p-6 hover:scale-105 transition-transform duration-300 flex flex-col items-center">
+                {/* Speaker Image */}
                 <img
                   src={card.image}
-                  alt={card.text[0]}
+                  alt={card.name}
                   className="w-40 h-40 rounded-full mb-4 border-4 border-gray-300 shadow-md"
                 />
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold mb-2 text-purple-700">
-                    {card.text[0]}
-                  </h3>
-                  {card.text.slice(1).map((line, i) => (
-                    <p key={i} className="text-gray-600 p-2">
-                      {line}
-                    </p>
-                  ))}
-                </div>
+                {/* Speaker Name */}
+                <h3 className="text-2xl font-bold mb-2 text-purple-700 text-center">
+                  {card.name}
+                </h3>
+                {/* Speaker Designation */}
+                <p className="text-gray-600 text-center text-sm">
+                  {card.designation}
+                </p>
+                {/* Speaker Department */}
+                <p className="text-sm text-gray-500 text-center mt-2">
+                  {card.department}
+                </p>
               </div>
             </div>
           ))}
