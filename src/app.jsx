@@ -7,6 +7,7 @@ import CommitteMember from "./pages/CommitteMember";
 import About from "./pages/About";
 import Callforpapers from "./pages/Callforpapers";
 import Speakers from "./pages/Speakers";
+import Registration from "./pages/Registration";
 
 const app = () => {
   return (
@@ -18,6 +19,7 @@ const app = () => {
           <Route path="/about" element={<About />} />
           <Route path="/committee-member" element={<CommitteMember />} />
           <Route path="/speakers" element={<Speakers />} />
+          <Route path="/registration" element={<Registration />} />
           <Route path="/callforpapers" element={<Callforpapers />} />
           {/* <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/sponsors" element={<Sponsors />} />
