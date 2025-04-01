@@ -3,26 +3,25 @@ import React from "react";
 const committeeData = [
   {
     title: "Chief Patron",
-    members: ["Prof. A.M. Agarwal, Vice Chancellor, Praygaraj, U.P., India"],
+    members: ["Dr. Jagdish Gulati, Pro Chancellor, United University, Prayagraj, Uttar Pradesh, India"]
   },
   {
     title: "Patrons",
-    members: [
-      "Shri. G.G. Gulati, Chancellor, United University Prayagraj, Uttar Pradesh, India.",
-      "Dr. Satpal Gulati, Vice Chairman, United Group of Institutions (UGI), Prayagraj, Uttar Pradesh, India.",
-      "Dr. Jagdish Gulati, Pro Chancellor, United University, Prayagraj, Uttar Pradesh, India.",
-      "Mr. Gaurav Gulati, Senior Vice President, United Group of Institutions (UGI), Prayagraj, Uttar Pradesh, India.",
-    ],
+    members: ["Prof. A.M. Agarwal, Vice Chancellor, Praygaraj, U.P., India"
+    ]
   },
   {
     title: "General Chair",
     members: [
-      "Dr. Prashant Shukla, HoD (CSE), United University, Prayagraj, India",
+      "Dr. Prashant Shukla, HoD (Faculty of Engineering and Technology), United University, Prayagraj, India",
     ],
   },
   {
     title: "Technical Chair",
-    members: ["Dr. Sanjeev Kumar, United University, Prayagraj, India"],
+    members: ["Dr. Sanjeev Kumar, United University, Prayagraj, India",
+    "Dr. (Prof.) Bharat Bhargava,  Purdue University, USA",
+    "Prof. Sushila Maheshkar, National Institute of Technology, Delhi",
+    "Prof.Sanjoy Kumar Saha,Jadavpur University,Kolkata"]
   },
   {
     title: "Program Chairs",
@@ -31,6 +30,14 @@ const committeeData = [
       "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
       "Dr. Santosh Kumar Sharma, United University, Prayagraj, India",
       "Dr. Ashutosh Kumar Tripathi, United University, Prayagraj, India",
+    ],
+  },
+  {
+    title: "Editorial Chair",
+    members: [
+      "Dr. Dac-Nhuong Le,Haiphong University, Vietnam",
+      "Prof. Ravi Shukla, Saudi Electronic University,Saudi Arabia",
+      "Prof. Jyoti Sekhar Banerjee,Head, CSE (AI & ML), Bengal Institute of Technology & Remote Researcher, ITHACA Lab, UOWM, Greece"
     ],
   },
   {
@@ -84,17 +91,7 @@ const committeeData = [
       "Ms. Kumkum Dwivedi, United University, Prayagraj, India",
     ],
   },
-  {
-    title: "Editorial Chair",
-    members: [
-      "Dr. Prashant Shukla, HoD (CSE), United University, Prayagraj, India",
-      "Dr. Sanjeev Kumar, United University, Prayagraj, India",
-      "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
-      "Dr. Santosh Kumar Sharma, United University, Prayagraj, India",
-      "Dr. Ashutosh Kumar Tripathi, United University, Prayagraj, India",
-      "Dr. Tulika Narang, United University, Prayagraj, India",
-    ],
-  },
+  
 ];
 
 const CommitteMember = () => {
