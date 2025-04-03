@@ -16,7 +16,7 @@ const Carousel = () => {
       {/* Centered Text */}
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="text-3xl md:text-5xl font-bold mb-4 text-yellow-400">
-          1st International Conference On
+          1st International Conference on
         </h1>
         <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-blue-300">
           Advances in Intelligent Computing and Communication Technology
