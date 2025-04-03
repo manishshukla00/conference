@@ -65,13 +65,13 @@ const Registration = () => {
               </li>
               <li>
                 <span className="font-bold">Account Number:</span>{" "}
-                0674002190422900
+                50100366340061
               </li>
               <li>
-                <span className="font-bold">IFSC Code:</span> PUNB*******
+                <span className="font-bold">IFSC Code:</span> HDFC0006735
               </li>
               <li>
-                <span className="font-bold">SWIFT Code:</span> PUNBINBBGNM
+                <span className="font-bold">SWIFT Code:</span>HDFCINBB
               </li>
               <li>
                 <span className="font-bold">Branch:</span>{" "}
