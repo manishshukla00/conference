@@ -71,7 +71,7 @@ const Registration = () => {
                 <span className="font-bold">IFSC Code:</span> HDFC0006735
               </li>
               <li>
-                <span className="font-bold">SWIFT Code:</span>HDFCINBB
+                <span className="font-bold">SWIFT Code:</span>HDFCINBBNRI
               </li>
               <li>
                 <span className="font-bold">Branch:</span>{" "}
