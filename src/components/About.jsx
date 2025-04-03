@@ -31,7 +31,8 @@ const About = () => {
             provide a platform for academicians, researchers, scholars, and
             students from various institutions, universities, and industries in
             India and abroad to exchange their research and innovative ideas in
-            the field of Cloud, Communication, and Internet of Things.
+            the field of Artificial Intelligence, Machine learning, Natural Language Processing, Smart Systems, Networks, and Communication Systems, Quantum computing, Knowledge Engineering and Ontology, Internet of Things, 
+            Education Technology and Business Engineering..
           </p>
           <p className="text-gray-600 text-justify">
             We invite all students, research scholars, academicians, engineers,
@@ -39,8 +40,7 @@ const About = () => {
             Computing, Communications, and Techniques from all over the world.
             We warmly welcome all the authors to submit their original research
             in the upcoming conference AICCT-2025 to share their knowledge and
-            experience among each other in collaboration with JNU and EVedant
-            Foundation.
+            experience among each othe
           </p>
           <p className="text-blue-800 font-bold text-justify text-lg">
             Papers submitted to AICCT-2025 will undergo a strict double-blind

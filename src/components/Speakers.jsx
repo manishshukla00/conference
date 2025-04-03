@@ -5,22 +5,22 @@ const Speakers = () => {
 
   const cards = [
     {
-      name: "Prof. Rajeev Kumar",
+      name: "Prof. Rajeev Srivastva",
       image: "/images/RajeevPhoto1.jpeg",
-      designation: "Expert in Artificial Intelligence",
-      department: "Department of Computer Science, University of XYZ",
+      designation: "Director",
+      department: "IIIT Ranchi",
     },
     {
       name: "Prof. Sanjay Mishra",
       image: "/images/sanjay-misra.png",
-      designation: "Renowned Cybersecurity Specialist",
-      department: "Department of IT, ABC Institute of Technology",
+      designation: "Professor of Computer Engineering",
+      department: " Covenant University",
     },
     {
       name: "Prof. Sekhar Verma",
       image: "/images/sverma.jpg",
-      designation: "Expert in Data Science",
-      department: "MNNIT Prayagraj",
+      designation: "Professor in CSE",
+      department: "Indian Institute of Information Technology - Allahabad",
     },
   ];
 

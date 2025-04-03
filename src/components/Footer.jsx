@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm leading-relaxed text-justify">
               AICCT 2025 is an international conference that brings together
               researchers, academicians, and industry professionals to discuss
-              the latest advancements in computing, communication, and
+              the latest advancements in  intellegent computing, communication, and
               technology.
             </p>
           </div>
@@ -73,11 +73,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li>Mon - Fri: 9 AM - 4 PM</li>
-              <li>+91 9759111170</li>
-              <li>AICCT2025@cgc.edu.in</li>
+              <li>Department of CSE</li>
+              <li>+919161292060</li>
+              <li>sanjeev.kumar@uniteduniversity.edu.in</li>
               <li>
-                United Group of Colleges, Prayagraj, Uttar Pradesh (INDIA)
+                United University, Prayagraj, Uttar Pradesh (INDIA)
               </li>
             </ul>
           </div>
