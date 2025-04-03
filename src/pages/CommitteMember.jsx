@@ -6,7 +6,7 @@ const committeeData = [
     members: ["Dr. Jagdish Gulati, Pro Chancellor, United University, Prayagraj, Uttar Pradesh, India"]
   },
   {
-    title: "Patrons",
+    title: "Patron",
     members: ["Prof. A.M. Agarwal, Vice Chancellor, Prayagraj, U.P., India"
     ]
   },
