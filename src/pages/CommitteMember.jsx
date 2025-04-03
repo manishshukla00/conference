@@ -7,13 +7,13 @@ const committeeData = [
   },
   {
     title: "Patrons",
-    members: ["Prof. A.M. Agarwal, Vice Chancellor, Praygaraj, U.P., India"
+    members: ["Prof. A.M. Agarwal, Vice Chancellor, Prayagraj, U.P., India"
     ]
   },
   {
     title: "General Chair",
     members: [
-      "Dr. Prashant Shukla, HoD (Faculty of Engineering and Technology), United University, Prayagraj, India",
+      "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
     ],
   },
   {
@@ -21,7 +21,7 @@ const committeeData = [
     members: ["Dr. Sanjeev Kumar, United University, Prayagraj, India",
     "Dr. (Prof.) Bharat Bhargava,  Purdue University, USA",
     "Prof. Sushila Maheshkar, National Institute of Technology, Delhi",
-    "Prof.Sanjoy Kumar Saha,Jadavpur University,Kolkata"]
+    "Prof. Sanjoy Kumar Saha, Jadavpur University, Kolkata"]
   },
   {
     title: "Program Chairs",
@@ -36,7 +36,7 @@ const committeeData = [
     title: "Editorial Chair",
     members: [
       "Dr. Dac-Nhuong Le,Haiphong University, Vietnam",
-      "Prof. Ravi Shukla, Saudi Electronic University,Saudi Arabia",
+      "Prof. Ravi Shukla, Saudi Electronic University, Saudi Arabia",
       "Prof. Jyoti Sekhar Banerjee,Head, CSE (AI & ML), Bengal Institute of Technology & Remote Researcher, ITHACA Lab, UOWM, Greece"
     ],
   },
@@ -73,7 +73,8 @@ const committeeData = [
   },
   {
     title: "Local Organizing Chair",
-    members: ["Mr. Rahul Vyas, United University, Prayagraj, India"],
+    members: ["Mr. Rahul Vyas, United University, Prayagraj, India","Mr. Praven Kumar Srivastva, United University, Prayagraj, India",],
+    
   },
   {
     title: "Local Organizing Co-Chairs",
@@ -81,7 +82,7 @@ const committeeData = [
       "Mr. Biju Natesan, United University, Prayagraj, India",
       "Mr. Anurag Tripathi, United University, Prayagraj, India",
       "Mrs. Vibha Tripathi, United University, Prayagraj, India",
-      "Mr. Praven Kumar Srivastva, United University, Prayagraj, India",
+      
     ],
   },
   {
@@ -103,7 +104,7 @@ const CommitteMember = () => {
         </h1>
         <p className="text-lg text-gray-800 leading-relaxed mb-8 text-center">
           Meet the esteemed members of the conference committees who are
-          contributing to the success of AICT-2025.
+          contributing to the success of AICCT-2025.
         </p>
 
         {/* Responsive Cards for Committee Members */}
@@ -117,7 +118,7 @@ const CommitteMember = () => {
                 <h2 className="text-xl font-bold text-purple-700 mb-4 text-center">
                   {committee.title}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                <ul className="list-disc list-inside space-y-2 text-sm text-justify text-gray-700">
                   {committee.members.map((member, idx) => (
                     <li key={idx}>{member}</li>
                   ))}

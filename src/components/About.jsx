@@ -11,11 +11,11 @@ const About = () => {
             alt="United University Logo"
             className="w-40 h-40 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
-          <img
+          {/* <img
             src="https://icicct.in/images/tandf.png"
             alt="Taylor & Francis Logo"
             className="w-40 h-20 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
-          />
+          /> */}
           <img
             src="https://icicct.in/images/scopus.png"
             alt="Scopus Logo"

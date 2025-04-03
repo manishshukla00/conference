@@ -68,16 +68,16 @@ const Callforpapers = () => {
         "Optimization Algorithms",
       ],
     },
-    {
-      title: "Track-7: Teaching & Learning Systems",
-      topics: [
-        "Academic Staff/Faculty Development",
-        "Accreditation and Quality Assurance",
-        "Active Learning",
-        "Assessment and Evaluation",
-        "E-learning in the Workplace",
-      ],
-    },
+    // {
+    //   title: "Track-7: Teaching & Learning Systems",
+    //   topics: [
+    //     "Academic Staff/Faculty Development",
+    //     "Accreditation and Quality Assurance",
+    //     "Active Learning",
+    //     "Assessment and Evaluation",
+    //     "E-learning in the Workplace",
+    //   ],
+    // },
   ];
 
   return (
@@ -87,7 +87,7 @@ const Callforpapers = () => {
           Call for Papers
         </h1>
         <p className="text-lg text-gray-800 leading-relaxed mb-8 text-center">
-          AICT-2025 is soliciting original, previously unpublished, and
+          AICCT-2025 is soliciting original, previously unpublished, and
           high-quality research papers addressing research challenges and
           advances in the tracks mentioned below. The topics of the conference
           include, but are not limited to:
@@ -101,7 +101,7 @@ const Callforpapers = () => {
               className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform"
             >
               <div className="bg-white rounded-lg p-4 h-full">
-                <h2 className="text-xl font-bold text-purple-700 mb-4">
+                <h2 className="text-xl font-bold text-purple-700 text-left mb-4">
                   {track.title}
                 </h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-700">
