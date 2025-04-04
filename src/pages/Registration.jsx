@@ -86,7 +86,7 @@ const Registration = () => {
           {/* Registration Link */}
           <div className="text-center">
             <a
-              href="#"
+              href="https://forms.gle/QCfi7pPiJyy8AMi8A"
               className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:scale-105 transform transition-transform"
             >
               Register Here
