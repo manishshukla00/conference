@@ -34,8 +34,11 @@ const committeeData = [
   {
     title: "Editorial Chair",
     members: [
-      "Dr. Dac-Nhuong Le,Haiphong University, Vietnam",
-      "Prof. Ravi Shukla, Saudi Electronic University, Saudi Arabia",
+      "Prof. (Dr.) Siddhartha Bhattacharya,VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
+      "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India ",
+      "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
+      "Dr. Sanjeev Kumar, United University, Prayagraj, India",
+      "Dr. Manoj Kumar Pal, United University, Prayagraj, India"
       
     ],
   },
