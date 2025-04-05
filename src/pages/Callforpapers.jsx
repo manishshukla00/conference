@@ -59,13 +59,16 @@ const Callforpapers = () => {
       ],
     },
     {
-      title: "Track-6: Advanced Algorithms",
+      title: "Track-6: Computer Technologies Trends",
       topics: [
-        "Approximation Algorithms",
-        "Bioinformatics Algorithms",
-        "Computational Geometry",
-        "Graph Algorithms",
-        "Optimization Algorithms",
+        "Big Data",
+        "Internet of Things",
+        "Blockchain",
+        "Cyber-Physical Systems",
+        "Smart Cities",
+        "Machine to Machine",
+        "Digital Transformation",
+        "Social Computing"
       ],
     },
     // {
