@@ -26,8 +26,7 @@ const committeeData = [
   {
     title: "Program Chairs",
     members: [
-      "Dr. Chetan Vyas, United University, Prayagraj, India",
-      
+      "Dr. Chetan Vyas, United University, Prayagraj, India",      
       "Dr. Santosh Kumar Sharma, United University, Prayagraj, India",
       "Dr. Ashutosh Kumar Tripathi, United University, Prayagraj, India",
     ],
@@ -37,7 +36,7 @@ const committeeData = [
     members: [
       "Dr. Dac-Nhuong Le,Haiphong University, Vietnam",
       "Prof. Ravi Shukla, Saudi Electronic University, Saudi Arabia",
-      "Prof. Jyoti Sekhar Banerjee,Head, CSE (AI & ML), Bengal Institute of Technology & Remote Researcher, ITHACA Lab, UOWM, Greece"
+      
     ],
   },
   {
