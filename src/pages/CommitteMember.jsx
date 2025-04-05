@@ -21,9 +21,7 @@ const committeeData = [
     title: "Technical Chair",
     members: ["Dr. Sanjeev Kumar, United University, Prayagraj, India",
       "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
-    "Dr. (Prof.) Bharat Bhargava,  Purdue University, USA",
-    "Prof. Sushila Maheshkar, National Institute of Technology, Delhi",
-    "Prof. Sanjoy Kumar Saha, Jadavpur University, Kolkata"]
+    ]
   },
   {
     title: "Program Chairs",
