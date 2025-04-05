@@ -26,7 +26,7 @@ const Registration = () => {
             </h2>
             <ul className="space-y-2 text-gray-700 text-lg">
               <li>
-                <span className="font-bold">Student/ Research Scholar:</span>{" "}
+                <span className="font-bold">Student/ Research Scholar:</span>
                 INR 7000
               </li>
               <li>
@@ -38,7 +38,7 @@ const Registration = () => {
               <li>
                 <span className="font-bold">
                   Foreign Student/ Research Scholar:
-                </span>{" "}
+                </span>
                 USD 200
               </li>
               <li>
@@ -64,7 +64,7 @@ const Registration = () => {
                 University
               </li>
               <li>
-                <span className="font-bold">Account Number:</span>{" "}
+                <span className="font-bold">Account Number:</span>
                 50100366340061
               </li>
               <li>
@@ -74,7 +74,7 @@ const Registration = () => {
                 <span className="font-bold">SWIFT Code:</span>HDFCINBBNRI
               </li>
               <li>
-                <span className="font-bold">Branch:</span>{" "}
+                <span className="font-bold">Branch:</span>
                 HDFC,Rawatpur,Prayagraj
               </li>
               <li>

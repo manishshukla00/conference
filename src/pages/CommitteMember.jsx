@@ -12,7 +12,8 @@ const committeeData = [
   },
   {
     title: "General Chair",
-    members: [
+    members: ["Prof. (Dr.) Siddhartha Bhattacharya,VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
+      "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India ",
       "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
     ],
   },
