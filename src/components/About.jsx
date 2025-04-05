@@ -41,8 +41,7 @@ const About = () => {
           <p className="text-blue-800 font-bold text-justify text-lg">
             Papers submitted to AICCT-2025 will undergo a strict double-blind
             review process. All accepted and presented papers will be published
-            in the AICCT-2025 Conference Proceedings, which will be indexed in
-            Scopus.
+            in the AICCT-2025 Conference Proceedings.
           </p>
         </div>
       </div>
