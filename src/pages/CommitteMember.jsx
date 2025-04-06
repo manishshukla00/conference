@@ -3,30 +3,33 @@ import React from "react";
 const committeeData = [
   {
     title: "Chief Patron",
-    members: ["Dr. Jagdish Gulati, Pro Chancellor, United University, Prayagraj, Uttar Pradesh, India"]
+    members: [
+      "Dr. Jagdish Gulati, Pro Chancellor, United University, Prayagraj, Uttar Pradesh, India",
+    ],
   },
   {
     title: "Patron",
-    members: ["Prof. A.M. Agarwal, Vice Chancellor, Prayagraj, U.P., India"
-    ]
+    members: ["Prof. A.M. Agarwal, Vice Chancellor, Prayagraj, U.P., India"],
   },
   {
     title: "General Chair",
-    members: ["Prof. (Dr.) Siddhartha Bhattacharya,VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
-      "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India ",
+    members: [
+      "Prof. (Dr.) Siddhartha Bhattacharya, VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
+      "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India",
       "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
     ],
   },
   {
     title: "Technical Chair",
-    members: ["Dr. Sanjeev Kumar, United University, Prayagraj, India",
+    members: [
+      "Dr. Sanjeev Kumar, United University, Prayagraj, India",
       "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
-    ]
+    ],
   },
   {
     title: "Program Chairs",
     members: [
-      "Dr. Chetan Vyas, United University, Prayagraj, India",      
+      "Dr. Chetan Vyas, United University, Prayagraj, India",
       "Dr. Santosh Kumar Sharma, United University, Prayagraj, India",
       "Dr. Ashutosh Kumar Tripathi, United University, Prayagraj, India",
     ],
@@ -34,12 +37,11 @@ const committeeData = [
   {
     title: "Editorial Chair",
     members: [
-      "Prof. (Dr.) Siddhartha Bhattacharya,VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
-      "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India ",
+      "Prof. (Dr.) Siddhartha Bhattacharya, VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
+      "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India",
       "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
       "Dr. Sanjeev Kumar, United University, Prayagraj, India",
-      "Dr. Manoj Kumar Pal, United University, Prayagraj, India"
-      
+      "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
     ],
   },
   {
@@ -75,8 +77,10 @@ const committeeData = [
   },
   {
     title: "Local Organizing Chair",
-    members: ["Mr. Rahul Vyas, United University, Prayagraj, India","Mr. Praven Kumar Srivastva, United University, Prayagraj, India",],
-    
+    members: [
+      "Mr. Rahul Vyas, United University, Prayagraj, India",
+      "Mr. Praven Kumar Srivastva, United University, Prayagraj, India",
+    ],
   },
   {
     title: "Local Organizing Co-Chairs",
@@ -84,7 +88,6 @@ const committeeData = [
       "Mr. Biju Natesan, United University, Prayagraj, India",
       "Mr. Anurag Tripathi, United University, Prayagraj, India",
       "Mrs. Vibha Tripathi, United University, Prayagraj, India",
-      
     ],
   },
   {
@@ -94,13 +97,13 @@ const committeeData = [
       "Ms. Kumkum Dwivedi, United University, Prayagraj, India",
     ],
   },
-  
 ];
 
 const CommitteMember = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8">
       <div className="max-w-7xl mx-auto pt-20">
+        {/* Page Title */}
         <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6 pt-4">
           Conference Committees
         </h1>
@@ -109,9 +112,41 @@ const CommitteMember = () => {
           contributing to the success of AICCT-2025.
         </p>
 
-        {/* Responsive Cards for Committee Members */}
+        {/* Chief Patron Card */}
+        <div className="mb-8 flex justify-center">
+          <div className="bg-gradient-to-r from-purple-700 via-pink-600 to-orange-500 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform w-full max-w-3xl">
+            <div className="bg-white rounded-lg p-6">
+              <h2 className="text-3xl font-extrabold text-purple-800 mb-4 text-center">
+                Chief Patron
+              </h2>
+              <ul className="list-none space-y-2 text-lg text-center text-gray-700">
+                {committeeData[0].members.map((member, idx) => (
+                  <li key={idx}>{member}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Patron Card */}
+        <div className="mb-8 flex justify-center">
+          <div className="bg-gradient-to-r from-purple-700 via-pink-600 to-orange-500 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform w-full max-w-3xl">
+            <div className="bg-white rounded-lg p-6">
+              <h2 className="text-3xl font-extrabold text-purple-800 mb-4 text-center">
+                Patron
+              </h2>
+              <ul className="list-none space-y-2 text-lg text-center text-gray-700">
+                {committeeData[1].members.map((member, idx) => (
+                  <li key={idx}>{member}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Other Committee Members */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-          {committeeData.map((committee, index) => (
+          {committeeData.slice(2).map((committee, index) => (
             <div
               key={index}
               className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform"

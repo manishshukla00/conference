@@ -68,24 +68,15 @@ const Callforpapers = () => {
         "Smart Cities",
         "Machine to Machine",
         "Digital Transformation",
-        "Social Computing"
+        "Social Computing",
       ],
     },
-    // {
-    //   title: "Track-7: Teaching & Learning Systems",
-    //   topics: [
-    //     "Academic Staff/Faculty Development",
-    //     "Accreditation and Quality Assurance",
-    //     "Active Learning",
-    //     "Assessment and Evaluation",
-    //     "E-learning in the Workplace",
-    //   ],
-    // },
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8">
       <div className="max-w-7xl mx-auto pt-20">
+        {/* Page Title */}
         <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6 pt-4">
           Call for Papers
         </h1>
@@ -97,7 +88,7 @@ const Callforpapers = () => {
         </p>
 
         {/* Responsive Cards for Tracks */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {tracks.map((track, index) => (
             <div
               key={index}
@@ -115,6 +106,104 @@ const Callforpapers = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Author Guidelines Section */}
+        <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg">
+          <div className="bg-white rounded-lg p-6">
+            <h2 className="text-3xl font-extrabold text-purple-800 mb-6 text-center">
+              Author Guidelines
+            </h2>
+            <p className="text-lg text-gray-800 mb-4">
+              The authors are instructed to follow the{" "}
+              <a
+                href="#"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                Taylor and Francis template
+              </a>{" "}
+              for typesetting and content formatting. The templates can be found
+              here:
+            </p>
+            <h3 className="text-2xl font-bold text-purple-700 mb-4">
+              Criteria:
+            </h3>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
+              <li>
+                <span className="font-bold">Maximum Pages Allowed:</span> 6
+                (Six)
+              </li>
+              <li>
+                <span className="font-bold">Maximum Number of Authors:</span> 6
+                (Six)
+              </li>
+              <li>
+                <span className="font-bold">Maximum Text Plagiarism:</span> 10%
+              </li>
+              <li>
+                <span className="font-bold">Maximum AI Plagiarism:</span> 5%
+              </li>
+            </ul>
+
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Formatting Requirements:
+            </h3>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
+              <li>
+                Ensure your paper follows the formatting guidelines as per the
+                provided template.
+              </li>
+              <li>
+                <span className="font-bold">Title and Abstract:</span> Craft a
+                clear and descriptive title. Write an informative abstract that
+                summarizes the main objectives, methods, results, and
+                conclusions of your research.
+              </li>
+              <li>
+                <span className="font-bold">Keywords:</span> Include a list of
+                keywords that accurately represent the content of your paper.
+              </li>
+              <li>
+                <span className="font-bold">Introduction:</span> Provide a
+                comprehensive introduction outlining the background,
+                significance, and objectives of your research.
+              </li>
+              <li>
+                <span className="font-bold">Methods:</span> Describe the
+                methodology and techniques used in your study in sufficient
+                detail to allow replication.
+              </li>
+              <li>
+                <span className="font-bold">Results:</span> Present your
+                findings clearly and concisely. Use tables, figures, and graphs
+                where appropriate.
+              </li>
+              <li>
+                <span className="font-bold">Discussion:</span> Interpret your
+                results and discuss their implications.
+              </li>
+              <li>
+                <span className="font-bold">Conclusion:</span> Summarize the
+                main findings of your study and restate the importance of your
+                research.
+              </li>
+              <li>
+                <span className="font-bold">References:</span> Cite all sources
+                used in your paper accurately.
+              </li>
+              <li>
+                <span className="font-bold">Proofreading:</span> Proofread your
+                paper carefully for grammar, spelling, and formatting errors.
+              </li>
+            </ul>
+
+            {/* Submit Article Button */}
+            <div className="mt-8 text-center">
+              <button className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:scale-105 transition-transform">
+                Submit Article
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
