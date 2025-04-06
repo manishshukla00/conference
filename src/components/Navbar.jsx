@@ -65,6 +65,15 @@ const Navbar = () => {
             <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
           <Link
+            to="/author-guidelines"
+            className="relative text-white transition-transform transform hover:scale-105 group"
+          >
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Author Guidelines
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
+          </Link>
+          <Link
             to="/registration"
             className="relative text-white transition-transform transform hover:scale-105 group"
           >
@@ -143,6 +152,13 @@ const Navbar = () => {
             className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Call For Papers
+          </Link>
+          <Link
+            to="/author-guidelines"
+            onClick={toggleMenu}
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
+          >
+            Author Guidelines
           </Link>
           <Link
             to="/registration"
