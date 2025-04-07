@@ -12,12 +12,10 @@ const AuthorGuidlines = () => {
             </h2>
             <p className="text-lg text-gray-800 mb-4">
               The authors are instructed to follow the
-              <a
-                href="#"
-                className="text-blue-600 underline hover:text-blue-800"
-              >
-                Taylor and Francis template
-              </a>
+              here
+              
+                  template 
+              
               for typesetting and content formatting. The templates can be found
               here:
             </p>
@@ -44,11 +42,10 @@ const AuthorGuidlines = () => {
                 <span className="font-bold">
                   Strict Double-blind Paper Review Process:
                 </span>
-                Papers submitted to ICICCT-2024 will undergo a strict
+                Papers submitted to AICCT-2025 will undergo a strict
                 double-blind review process. All papers that are accepted and
-                presented in ICICCT-2024 will be published in the ICICCT-2024
-                Conference Proceeding. The proceeding will be published by
-                Taylor & Francis and indexed in the Scopus database.
+                presented in AICCT-2025  will be published in the AICCT-2025 
+                Conference Proceeding.
               </li>
             </ul>
 
