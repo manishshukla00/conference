@@ -4,9 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   return (
@@ -27,7 +32,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex items-center gap-6 font-bold">
+        <div className="hidden md:flex items-center gap-6 font-bold relative">
           <Link
             to="/"
             className="relative text-white transition-transform transform hover:scale-105 group"
@@ -55,24 +60,53 @@ const Navbar = () => {
             </span>
             <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
           </Link>
-          <Link
-            to="/callforpapers"
-            className="relative text-white transition-transform transform hover:scale-105 group"
-          >
-            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
-              Call For Papers
-            </span>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
-          </Link>
-          <Link
-            to="/author-guidelines"
-            className="relative text-white transition-transform transform hover:scale-105 group"
-          >
-            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
-              Author Guidelines
-            </span>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
-          </Link>
+
+          {/* Call for Papers with Dropdown */}
+          <div className="relative">
+            <button
+              onClick={toggleDropdown}
+              className="flex items-center text-white transition-transform transform hover:scale-105 group focus:outline-none"
+            >
+              <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                Call For Papers
+              </span>
+              <svg
+                className={`w-4 h-4 ml-2 transform ${
+                  isDropdownOpen ? "rotate-180" : "rotate-0"
+                } transition-transform`}
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            {isDropdownOpen && (
+              <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-lg">
+                <Link
+                  to="/callforpapers"
+                  onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                  className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
+                >
+                  Call for Papers
+                </Link>
+                <Link
+                  to="/author-guidelines"
+                  onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                  className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
+                >
+                  Author Guidelines
+                </Link>
+              </div>
+            )}
+          </div>
+
           <Link
             to="/registration"
             className="relative text-white transition-transform transform hover:scale-105 group"
