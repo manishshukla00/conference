@@ -9,6 +9,7 @@ import Callforpapers from "./pages/Callforpapers";
 import Speakers from "./pages/Speakers";
 import Registration from "./pages/Registration";
 import AuthorGuidlines from "./pages/AuthorGuidlines"; // Import the AuthorGuidlines page
+import PublicationEthics from "./pages/PublicationEthics";
 
 const app = () => {
   return (
@@ -22,7 +23,9 @@ const app = () => {
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/callforpapers" element={<Callforpapers />} />
-          <Route path="/author-guidelines" element={<AuthorGuidlines />} />{" "}
+          <Route path="/author-guidelines" element={<AuthorGuidlines />} />
+          <Route path="/author-guidelines" element={<AuthorGuidlines />} />
+          <Route path="/publication-ethics" element={<PublicationEthics />} />
           {/* New Route */}
           {/* <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/sponsors" element={<Sponsors />} />

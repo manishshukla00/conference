@@ -11,12 +11,8 @@ const AuthorGuidlines = () => {
               Author Guidelines
             </h2>
             <p className="text-lg text-gray-800 mb-4">
-              The authors are instructed to follow the
-              here
-              
-                  template 
-              
-              for typesetting and content formatting. The templates can be found
+              The authors are instructed to follow the here template for
+              typesetting and content formatting. The templates can be found
               here:
             </p>
 
@@ -44,7 +40,7 @@ const AuthorGuidlines = () => {
                 </span>
                 Papers submitted to AICCT-2025 will undergo a strict
                 double-blind review process. All papers that are accepted and
-                presented in AICCT-2025  will be published in the AICCT-2025 
+                presented in AICCT-2025 will be published in the AICCT-2025
                 Conference Proceeding.
               </li>
             </ul>

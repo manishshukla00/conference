@@ -103,6 +103,13 @@ const Navbar = () => {
                 >
                   Author Guidelines
                 </Link>
+                <Link
+                  to="/publication-ethics"
+                  onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                  className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
+                >
+                  Publication Ethics
+                </Link>
               </div>
             )}
           </div>
@@ -193,6 +200,13 @@ const Navbar = () => {
             className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >
             Author Guidelines
+          </Link>
+          <Link
+            to="/publication-ethics"
+            onClick={toggleMenu}
+            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
+          >
+            Publication Ethics
           </Link>
           <Link
             to="/registration"
