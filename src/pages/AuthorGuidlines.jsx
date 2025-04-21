@@ -12,10 +12,10 @@ const AuthorGuidlines = () => {
             </h2>
             <p className="text-lg text-gray-800 mb-4">
               We are excited to welcome authors to submit their technical papers
-              for the International Conference on Smart Computing, Communication
-              and Automation (ICSCCA), 2K25 using Microsoft CMT. Please cohere
-              to the instructions outlined below to ensure a smooth submission
-              process:
+              for the International Conference on Advances in Intelligent
+              Computing and Communication Technology (AICCT), 2K25 using
+              Microsoft CMT. Please cohere to the instructions outlined below to
+              ensure a smooth submission process:
             </p>
 
             <h3 className="text-2xl font-bold text-purple-700 mb-4">
@@ -115,12 +115,12 @@ const AuthorGuidlines = () => {
               Mode of Presentation:
             </h3>
             <p className="text-lg text-gray-800 mb-4">
-              ICSCCA 2K25 will be held in hybrid mode, where authors can present
+              AICCT 2K25 will be held in hybrid mode, where authors can present
               their papers either in physical mode at the conference venue or
               online as per their preference.
             </p>
             <p className="text-lg text-gray-800 mb-4">
-              <span className="font-bold">PPT Template for ICSCCA:</span>
+              <span className="font-bold">PPT Template for AICCT:</span>
               <a
                 href="/files/ppt-template.pptx"
                 download
