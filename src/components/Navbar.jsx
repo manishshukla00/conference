@@ -18,11 +18,11 @@ const Navbar = () => {
     <div className="w-full bg-black bg-opacity-20 backdrop-blur-md absolute top-0 left-0 z-50">
       <nav className="w-full max-w-screen-xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center relative h-16">
           <Link to="/">
-            <div className="w-20 h-20 bg-white p-1 rounded-full shadow-md hover:scale-110 transition-transform">
+            <div className="absolute w-24 h-24 p-1 rounded-full shadow-md hover:scale-110 transition-transform -top-4">
               <img
-                src="/images/nlogo.png"
+                src="/images/logo.png"
                 alt="ICICCT Logo"
                 loading="lazy"
                 className="w-full h-full object-cover rounded-full"
