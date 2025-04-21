@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/">
             <div className="w-20 h-20 bg-white p-1 rounded-full shadow-md hover:scale-110 transition-transform">
               <img
-                src="/images/nlogo.png"
+                src="/images/logo.png"
                 alt="ICICCT Logo"
                 loading="lazy"
                 className="w-full h-full object-cover rounded-full"
