@@ -7,7 +7,7 @@ const About = () => {
         {/* Left Side - Logos */}
         <div className="flex flex-col items-center md:items-start md:w-1/3 space-y-4">
           <img
-            src="/images/Headlogo.jpg"
+            src="/images/logo.png"
             alt="United University Logo"
             className="w-40 h-40 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
@@ -16,7 +16,6 @@ const About = () => {
             alt="Taylor & Francis Logo"
             className="w-40 h-20 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           /> */}
-         
         </div>
 
         {/* Right Side - Text */}
@@ -27,8 +26,10 @@ const About = () => {
             provide a platform for academicians, researchers, scholars, and
             students from various institutions, universities, and industries in
             India and abroad to exchange their research and innovative ideas in
-            the field of Artificial Intelligence, Machine learning, Natural Language Processing, Smart Systems, Networks, and Communication Systems, Quantum computing, Knowledge Engineering and Ontology, Internet of Things, 
-            Education Technology and Business Engineering..
+            the field of Artificial Intelligence, Machine learning, Natural
+            Language Processing, Smart Systems, Networks, and Communication
+            Systems, Quantum computing, Knowledge Engineering and Ontology,
+            Internet of Things, Education Technology and Business Engineering..
           </p>
           <p className="text-gray-600 text-justify">
             We invite all students, research scholars, academicians, engineers,
