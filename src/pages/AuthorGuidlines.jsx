@@ -11,115 +11,138 @@ const AuthorGuidlines = () => {
               Author Guidelines
             </h2>
             <p className="text-lg text-gray-800 mb-4">
-              The authors are instructed to follow the here template for
-              typesetting and content formatting. The templates can be found
-              here:
+              We are excited to welcome authors to submit their technical papers
+              for the International Conference on Smart Computing, Communication
+              and Automation (ICSCCA), 2K25 using Microsoft CMT. Please cohere
+              to the instructions outlined below to ensure a smooth submission
+              process:
             </p>
 
             <h3 className="text-2xl font-bold text-purple-700 mb-4">
-              Criteria:
+              Accessing the Submission System:
             </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              To submit your paper, access the Conference Management Toolkit
+              (Microsoft CMT) via the provided submission link.
+            </p>
+
+            <h3 className="text-2xl font-bold text-purple-700 mb-4">
+              Paper Preparation:
+            </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              Prepare your paper in accordance with the conference paper
+              template below and the guidelines available on the conference
+              website.
+            </p>
             <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
               <li>
-                <span className="font-bold">Maximum Pages Allowed:</span> 6
-                (Six)
-              </li>
-              <li>
-                <span className="font-bold">Maximum Number of Authors:</span> 6
-                (Six)
-              </li>
-              <li>
-                <span className="font-bold">Maximum Text Plagiarism:</span> 10%
-              </li>
-              <li>
-                <span className="font-bold">Maximum AI Plagiarism:</span> 5%
+                <span className="font-bold">Template in Microsoft Word:</span>
+                <a
+                  href="/files/Word_Sample_template_8.25 x11_column.docx"
+                  download
+                  className="text-purple-600 underline hover:text-purple-800"
+                >
+                  Click here to download
+                </a>
               </li>
               <li>
                 <span className="font-bold">
-                  Strict Double-blind Paper Review Process:
+                  To download Conference Brochure:
                 </span>
-                Papers submitted to AICCT-2025 will undergo a strict
-                double-blind review process. All papers that are accepted and
-                presented in AICCT-2025 will be published in the AICCT-2025
-                Conference Proceeding.
+                <span className="text-gray-500">Link coming soon...</span>
               </li>
             </ul>
 
             <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
-              Formatting Requirements:
+              Agreements:
             </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              After getting the acceptance e-mail of the paper, the author needs
+              to submit the following agreement to the conference email:
+              <a
+                href="mailto:sanjeev.kumar@uniteduniversity.edu.in"
+                className="text-purple-600 underline hover:text-purple-800"
+              >
+                sanjeev.kumar@uniteduniversity.edu.in
+              </a>
+              . Otherwise, the accepted paper will not be published in the
+              conference proceedings.
+            </p>
             <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
               <li>
-                Ensure your paper follows the formatting guidelines as per the
-                provided template. The Taylor and Francis conference template
-                typically includes font size, margins, line spacing, and
-                citation style.
+                <span className="font-bold">
+                  Publishing Agreement Form (Copyright Form):
+                </span>
+                <span className="text-gray-500">Link coming soon...</span>
               </li>
               <li>
-                <span className="font-bold">Title and Abstract:</span> Craft a
-                clear and descriptive title for your paper. Write an informative
-                abstract that summarizes the main objectives, methods, results,
-                and conclusions of your research.
-              </li>
-              <li>
-                <span className="font-bold">Keywords:</span> Include a list of
-                keywords that accurately represent the content of your paper.
-                These keywords help index your paper for search engines and
-                databases.
-              </li>
-              <li>
-                <span className="font-bold">Introduction:</span> Provide a
-                comprehensive introduction that outlines the background,
-                significance, and objectives of your research. Clearly state the
-                research questions or hypotheses.
-              </li>
-              <li>
-                <span className="font-bold">Methods:</span> Describe the
-                methodology and techniques used in your study in sufficient
-                detail to allow replication. Include information on data
-                collection, analysis, and any experimental procedures.
-              </li>
-              <li>
-                <span className="font-bold">Results:</span> Present your
-                findings clearly and concisely. Use tables, figures, and graphs
-                where appropriate to enhance understanding.
-              </li>
-              <li>
-                <span className="font-bold">Discussion:</span> Interpret your
-                results and discuss their implications. Compare your findings
-                with existing literature and explain any limitations or future
-                directions for research.
-              </li>
-              <li>
-                <span className="font-bold">Conclusion:</span> Summarize the
-                main findings of your study and restate the importance of your
-                research in the broader context.
-              </li>
-              <li>
-                <span className="font-bold">References:</span> Cite all sources
-                used in your paper accurately. Follow the citation style
-                specified by the journal or conference guidelines.
-              </li>
-              <li>
-                <span className="font-bold">Ethical Considerations:</span>
-                Ensure your research complies with ethical standards, including
-                obtaining necessary permissions for data collection and
-                respecting participant confidentiality.
-              </li>
-              <li>
-                <span className="font-bold">Proofreading:</span> Proofread your
-                paper carefully for grammar, spelling, and formatting errors.
-                Consider seeking feedback from colleagues or mentors before
-                submission.
+                <span className="font-bold">Permission Guideline:</span>
+                <span className="text-gray-500">Link coming soon...</span>
               </li>
             </ul>
 
-            {/* Submit Article Button */}
-            <div className="mt-8 text-center">
-              <button className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:scale-105 transition-transform">
-                Submit Article
-              </button>
-            </div>
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Author's Guidelines:
+            </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              Each paper must be original and unpublished work, not submitted
+              for publication elsewhere. Papers must be written in good English
+              and follow the provided guidelines.
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
+              <li>
+                Regular papers: between 4 to 5 pages maximum (2 additional pages
+                allowed at extra charges).
+              </li>
+              <li>Maximum 5 authors allowed in the manuscript.</li>
+              <li>
+                Submitted papers must be in PDF format and submitted
+                electronically via Microsoft CMT.
+              </li>
+            </ul>
+
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Review Process:
+            </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              All submissions will be screened for plagiarism and undergo a
+              strict double-blind review process. Names and affiliations of the
+              authors must NOT be included anywhere in the paper during the
+              initial submission.
+            </p>
+
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Mode of Presentation:
+            </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              ICSCCA 2K25 will be held in hybrid mode, where authors can present
+              their papers either in physical mode at the conference venue or
+              online as per their preference.
+            </p>
+            <p className="text-lg text-gray-800 mb-4">
+              <span className="font-bold">PPT Template for ICSCCA:</span>
+              <a
+                href="/files/ppt-template.pptx"
+                download
+                className="text-purple-600 underline hover:text-purple-800"
+              >
+                Click here to download
+              </a>
+            </p>
+
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Contact Us:
+            </h3>
+            <p className="text-lg text-gray-800">
+              For any queries, feel free to
+              <a
+                href="/"
+                className="text-purple-600 underline hover:text-purple-800"
+              >
+                contact us
+              </a>
+              .
+            </p>
           </div>
         </div>
       </div>
