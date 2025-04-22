@@ -222,20 +222,16 @@ const AuthorGuidlines = () => {
             </h3>
             <p className="text-lg text-gray-800">
               The{" "}
-              <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F">
-                Microsoft CMT service
-              </a>{" "}
-              will be used for managing the peer-reviewing process for this
-              conference. This service is provided for free by Microsoft and
-              they bore all expenses, including costs for Azure cloud services
-              as well as for software development and support.
               <a
                 href="/"
                 className="text-purple-600 underline hover:text-purple-800"
               >
-                contact us
+                Microsoft CMT service
               </a>
-              .
+              will be used for managing the peer-reviewing process for this
+              conference. This service is provided for free by Microsoft and
+              they bore all expenses, including costs for Azure cloud services
+              as well as for software development and support. .
             </p>
             <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
               Contact Us:
