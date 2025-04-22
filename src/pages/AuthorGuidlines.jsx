@@ -208,7 +208,35 @@ const AuthorGuidlines = () => {
                 Click here to download
               </a>
             </p>
-
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Revisions and Camera-Ready Submission:
+            </h3>
+            <p className="text-lg text-gray-800">
+              If your paper is accepted with revisions, carefully address the
+              reviewers’ comments and revise your paper accordingly. Submit the
+              final camera-ready version of your paper by the specified
+              deadline. .
+            </p>
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Microsoft CMT for Review:
+            </h3>
+            <p className="text-lg text-gray-800">
+              The{" "}
+              <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F">
+                Microsoft CMT service
+              </a>{" "}
+              will be used for managing the peer-reviewing process for this
+              conference. This service is provided for free by Microsoft and
+              they bore all expenses, including costs for Azure cloud services
+              as well as for software development and support.
+              <a
+                href="/"
+                className="text-purple-600 underline hover:text-purple-800"
+              >
+                contact us
+              </a>
+              .
+            </p>
             <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
               Contact Us:
             </h3>
