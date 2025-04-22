@@ -191,9 +191,12 @@ const AuthorGuidlines = () => {
               Mode of Presentation:
             </h3>
             <p className="text-lg text-gray-800 mb-4">
-              AICCT 2K25 will be held in hybrid mode, where authors can present
-              their papers either in physical mode at the conference venue or
-              online as per their preference.
+              AICCT 2K25 will be held in hybrid mode, where authors shall
+              present their papers either in physical mode at the conference
+              venue or online as per their preference and convenience. The
+              proceedings and certificates will be sent to the email ids of the
+              corresponding authors. However, all matters related to publication
+              and indexing will remain unchanged.
             </p>
             <p className="text-lg text-gray-800 mb-4">
               <span className="font-bold">PPT Template for AICCT:</span>
