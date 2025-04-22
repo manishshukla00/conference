@@ -63,7 +63,8 @@ const AuthorGuidlines = () => {
                 href="mailto:sanjeev.kumar@uniteduniversity.edu.in"
                 className="text-purple-600 underline hover:text-purple-800"
               >
-                sanjeev.kumar@uniteduniversity.edu.in
+                {" "}
+                sanjeev.kumar@uniteduniversity.edu.in{" "}
               </a>
               . Otherwise, the accepted paper will not be published in the
               conference proceedings.
