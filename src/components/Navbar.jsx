@@ -101,7 +101,7 @@ const Navbar = () => {
                   onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
                   className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
                 >
-                  Author Guidelines
+                  Submission
                 </Link>
                 <Link
                   to="/publication-ethics"
