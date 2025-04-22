@@ -148,9 +148,9 @@ const AuthorGuidlines = () => {
                 scrutinizing the papers by the editorial board, if the papers
                 are rejected in the process of desk review, that will not assign
                 any review further. All submissions will be screened for
-                plagiarism by [iThenticateR or Turnitin], and when identified,
-                the submissions by the same author will be rejected at any stage
-                of the conference even after the conference and after the
+                plagiarism by iThenticateR or Turnitin, and when identified, the
+                submissions by the same author will be rejected at any stage of
+                the conference even after the conference and after the
                 publication of the proceedings online from the CRC. The question
                 of reimbursement of registration fees will not be applicable
                 here.
