@@ -53,9 +53,6 @@ const AuthorGuidlines = () => {
               </li>
             </ul>
 
-            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
-              Agreements:
-            </h3>
             <p className="text-lg text-gray-800 mb-4">
               After getting the acceptance e-mail of the paper, the author needs
               to submit the following agreement to the conference email:
@@ -107,10 +104,7 @@ const AuthorGuidlines = () => {
                 paper should be as per stipulation of publication house. It may
                 vary over time to time.{" "}
               </li>
-              <li>
-                Regular papers: between 4 to 5 pages maximum (2 additional pages
-                allowed at extra charges).
-              </li>
+
               <li>
                 The length of the paper should be minimum 4 pages and maximum 5
                 pages including metadata. The metadata should be in the first
@@ -122,7 +116,7 @@ const AuthorGuidlines = () => {
               </li>
               <li>
                 Submitted papers must be in PDF format and submitted
-                electronically via Microsoft CMT.
+                electronically via Microsoft CMT Link.
               </li>
               <li>Maximum 5 authors allowed in the manuscript.</li>
             </ul>
