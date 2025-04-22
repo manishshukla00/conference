@@ -242,6 +242,7 @@ const AuthorGuidlines = () => {
                 href="/"
                 className="text-purple-600 underline hover:text-purple-800"
               >
+                {" "}
                 contact us
               </a>
               .
