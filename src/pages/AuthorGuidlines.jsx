@@ -226,7 +226,7 @@ const AuthorGuidlines = () => {
                 href="/"
                 className="text-purple-600 underline hover:text-purple-800"
               >
-                Microsoft CMT service
+                Microsoft CMT service{" "}
               </a>
               will be used for managing the peer-reviewing process for this
               conference. This service is provided for free by Microsoft and
