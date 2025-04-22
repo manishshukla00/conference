@@ -125,16 +125,67 @@ const AuthorGuidlines = () => {
               </li>
               <li>Maximum 5 authors allowed in the manuscript.</li>
             </ul>
-
+            <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
+              Paper Submission:
+            </h3>
+            <p className="text-lg text-gray-800 mb-4">
+              Log in to Microsoft CMT using your credentials and click the
+              “Create New Submission” link. Fill in the required details,
+              including the paper title, abstract, and author information.
+              Upload your paper in PDF format as per the provided submission
+              instructions. Assign appropriate keywords to your submission.
+            </p>
             <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
               Review Process:
             </h3>
-            <p className="text-lg text-gray-800 mb-4">
-              All submissions will be screened for plagiarism and undergo a
-              strict double-blind review process. Names and affiliations of the
-              authors must NOT be included anywhere in the paper during the
-              initial submission.
-            </p>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
+              <li>
+                There is a call for paper with the firm deadline in terms of
+                submission, acceptance, review of the revised submission and
+                camera-ready submission. The Editorial Board has decided to
+                implement desk review and rejection by the editorial board. On
+                scrutinizing the papers by the editorial board, if the papers
+                are rejected in the process of desk review, that will not assign
+                any review further. All submissions will be screened for
+                plagiarism by [iThenticateR or Turnitin], and when identified,
+                the submissions by the same author will be rejected at any stage
+                of the conference even after the conference and after the
+                publication of the proceedings online from the CRC. The question
+                of reimbursement of registration fees will not be applicable
+                here.
+              </li>
+              <li>
+                Names and Affiliations of the authors must NOT be included
+                anywhere in the paper during the initial submission. For the
+                peer review purpose, self-references are NOT permitted. If the
+                author needs to refer to his/her own paper, the reference MUST
+                be made in the third person in the text description of the
+                submitted article. Any attempt to reveal author details and
+                affiliation at the time of initial submission will lead to
+                rejection summarily of the paper without further processing. The
+                review will be fully Double- Blind in nature.{" "}
+              </li>
+              <li>
+                {" "}
+                All papers that conform to submission guidelines will be
+                evaluated based on originality, technical and/or research
+                content/depth, correctness, relevance to conference,
+                contributions, and readability. Acceptance of papers will be
+                communicated to authors by the submission portal. The authors of
+                the accepted papers will be allowed to make corrections in
+                accordance with the suggestions of the reviewers and submit
+                final camera-ready papers within the stipulated deadline. All
+                camera-ready papers must be prepared in conformance with the
+                reviewer's report. The Editorial Board is responsible for the
+                correctness of the manuscript, including formal presentation and
+                completeness. Editorial Board is also responsible for ensuring
+                that the content of each contribution meets the designated
+                requirements of the publisher. Editorial Board or the
+                Publisher's decision would be final in this regard. Acceptance
+                based on the recommendation of reviewers will be at the sole
+                discretion of the editors.
+              </li>
+            </ul>
 
             <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
               Mode of Presentation:
