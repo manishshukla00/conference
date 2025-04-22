@@ -79,7 +79,7 @@ const AuthorGuidlines = () => {
                 <span className="font-bold">Permission Guideline:</span>
                 <span className="text-gray-500">Link coming soon...</span>
               </li>
-            </ul>
+            </ul><br
             <p>
               Regular Papers: between 4 to 5 pages maximum (2 additional pages
               allowed but at an extra charges). Regular papers should present
