@@ -92,20 +92,24 @@ const AuthorGuidlines = () => {
               Author's Guidelines:
             </h3>
             <p className="text-lg text-gray-800 mb-4">
-              Each paper must be original and unpublished work, not submitted
-              for publication elsewhere. Papers must be written in good English
-              and follow the provided guidelines.
+            
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-700 text-lg">
+              <li>Each paper must be original and unpublished work, not submitted
+              for publication elsewhere. Papers must be written in good English
+              and follow the provided guidelines.</li>
+              <li>It should begin with a title, a short abstract, and a list of keywords, and its introduction should summarize the contributions of the paper. The similarity index for a submitted paper should be as per stipulation of publication house. It may vary over time to time. </li>
               <li>
                 Regular papers: between 4 to 5 pages maximum (2 additional pages
                 allowed at extra charges).
               </li>
-              <li>Maximum 5 authors allowed in the manuscript.</li>
+              <li>The length of the paper should be minimum 4 pages and maximum 5 pages including metadata. The metadata should be in the first page of the  paper. </li>
+              <li>The authors are encouraged to prepare their papers as per the given guidelines. </li>
               <li>
                 Submitted papers must be in PDF format and submitted
                 electronically via Microsoft CMT.
               </li>
+              <li>Maximum 5 authors allowed in the manuscript.</li>
             </ul>
 
             <h3 className="text-2xl font-bold text-purple-700 mt-6 mb-4">
