@@ -15,7 +15,7 @@ const ImportantDates = () => {
     <div className="w-full max-w-3xl mx-auto px-4">
       {/* Title Section */}
       <h2 className="text-4xl font-bold text-center text-purple-800 mb-6 pt-4">
-        Important
+        Important{" "}
         <span className="text-orange-500 font-serif font-thin">Dates</span>
       </h2>
       {/* Card Section */}
