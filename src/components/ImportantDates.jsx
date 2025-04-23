@@ -16,7 +16,7 @@ const ImportantDates = () => {
       {/* Title Section */}
       <h2 className="text-4xl font-bold text-center text-purple-800 mb-6 pt-4">
         Important{" "}
-        <span className="text-orange-500 font-serif font-thin">Dates</span>
+        <span className="text-orange-500 font-serif font-thin"> Dates </span>
       </h2>
       {/* Card Section */}
       <div className="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 rounded-lg shadow-lg py-6">
