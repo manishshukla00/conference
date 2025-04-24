@@ -53,9 +53,16 @@ const About = () => {
           <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
             SUBMIT ARTICLE
           </button>
-          <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
-            DOC TEMPLATE
-          </button>
+          <a
+            href="/files/Word_Sample_template_8.25 x11_column.docx"
+            download
+            className="text-purple-600 underline hover:text-purple-800"
+          >
+            {" "}
+            <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
+              DOC TEMPLATE
+            </button>{" "}
+          </a>
         </div>
       </div>
     </div>
