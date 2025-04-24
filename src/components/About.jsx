@@ -56,9 +56,6 @@ const About = () => {
           <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
             DOC TEMPLATE
           </button>
-          <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
-            LATEX TEMPLATE
-          </button>
         </div>
       </div>
     </div>
