@@ -7,7 +7,18 @@ const ImportantDates = () => {
     { event: "Final Paper Submission:", date: "August 20, 2025" },
     { event: "Early Bird Registration:", date: "August 5, 2025" },
     { event: "Conference Date", date: "September 13-14, 2025" },
-    { event: "Paper Submission Guidelines", date: "MS Template Download" },
+    {
+      event: "Paper Submission Guidelines",
+      date: (
+        <a
+          href="/files/Word_Sample_template_8.25 x11_column.docx"
+          download
+          className="text-purple-600 underline hover:text-purple-800"
+        >
+          MS Template Download{" "}
+        </a>
+      ),
+    },
   ];
 
   return (
