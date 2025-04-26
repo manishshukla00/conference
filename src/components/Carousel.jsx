@@ -1,5 +1,6 @@
 // Carousel.js
 import React from "react";
+import "./Carousel.css"; // Import the CSS file for animations
 
 const Carousel = () => {
   return (
@@ -15,20 +16,20 @@ const Carousel = () => {
 
       {/* Centered Text */}
       <div className="relative z-10 text-center text-white px-4">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 text-yellow-400">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4 text-yellow-400 slide-in-left">
           1st International Conference on
         </h1>
-        <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-blue-300">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-blue-300 slide-in-right">
           Advances in Intelligent Computing and Communication Technology
           (AICCT-2025)
         </h2>
-        <p className="text-lg md:text-2xl font-medium mb-4 text-green-300">
+        <p className="text-lg md:text-2xl font-medium mb-4 text-green-300 slide-in-left">
           13-14 September, Organized by
         </p>
-        <p className="text-lg md:text-2xl font-medium text-pink-300">
+        <p className="text-lg md:text-2xl font-medium text-pink-300 slide-in-right">
           Department of Computer Science & Engineering
         </p>
-        <p className="text-lg md:text-2xl font-medium text-purple-300">
+        <p className="text-lg md:text-2xl font-medium text-purple-300 slide-in-left">
           United University, Prayagraj, India
         </p>
       </div>
