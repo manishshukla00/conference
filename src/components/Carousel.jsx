@@ -20,7 +20,7 @@ const Carousel = () => {
           1st International Conference on
         </h1>
         <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-blue-300 slide-in-right">
-          Advances in Intelligent Computing and Communication Technology
+          Advances in Intelligent Computing and Communication Technology <br />
           (AICCT-2025)
         </h2>
         <p className="text-lg md:text-2xl font-medium mb-4 text-green-300 slide-in-left">
