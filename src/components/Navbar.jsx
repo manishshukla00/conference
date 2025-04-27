@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="absolute w-24 h-24 p-1 rounded-full shadow-md hover:scale-110 transition-transform -top-4">
               <img
                 src="/images/logo.png"
-                alt="ICICCT Logo"
+                alt="AICCT Logo"
                 loading="lazy"
                 className="w-full h-full object-cover rounded-full"
               />
