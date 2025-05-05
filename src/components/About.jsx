@@ -22,7 +22,7 @@ const About = () => {
         <div className="md:w-full flex flex-col items-center md:items-start text-center md:text-left space-y-6">
           <h2 className="text-3xl font-bold text-gray-800">About The AICCT</h2>
           <p className="text-gray-600 text-justify">
-            AICCT-2025 is a non-profit conference and the objective is to
+            AICCT-2025 is an international conference and the objective is to
             provide a platform for academicians, researchers, scholars, and
             students from various institutions, universities, and industries in
             India and abroad to exchange their research and innovative ideas in
