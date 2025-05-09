@@ -28,8 +28,8 @@ const About = () => {
             India and abroad to exchange their research and innovative ideas in
             the field of Artificial Intelligence, Machine learning, Natural
             Language Processing, Smart Systems, Networks, and Communication
-            Systems, Quantum computing, Knowledge Engineering and Ontology,
-            Internet of Things, Education Technology and Business Engineering..
+            Systems, Quantum computing, Blockckchain and Cyber-Physical System,
+            Digital Transformation.
           </p>
           <p className="text-gray-600 text-justify">
             We invite all students, research scholars, academicians, engineers,
