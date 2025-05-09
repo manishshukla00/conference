@@ -17,8 +17,6 @@ const committeeData = [
       "Prof. (Dr.) Siddhartha Bhattacharya, VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
       "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India",
       "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
-      "Prof. (Dr.) Panagiotis Sarigiannidis,  university of Western Macedonia, Greece",
-      "Prof. (Dr.) JAN PLATOŠ,VSB Technical University of Ostrava, Czech Republic ",
     ],
   },
   {
