@@ -28,15 +28,14 @@ const About = () => {
             India and abroad to exchange their research and innovative ideas in
             the field of Artificial Intelligence, Machine learning, Natural
             Language Processing, Smart Systems, Networks, and Communication
-            Systems, Quantum computing, Blockckchain and Cyber-Physical System,
-            Digital Transformation.
+            Systems, Quantum computing, Blockchain and Cyber-Physical System.{" "}
           </p>
           <p className="text-gray-600 text-justify">
             We invite all students, research scholars, academicians, engineers,
             scientists, and industrialists working in the field of Intelligent
-            Computing, Communications, and Techniques from all over the world.
-            We warmly welcome all the authors to submit their original research
-            in the upcoming conference AICCT-2025 to share their knowledge and
+            Computing and Communications Techniques from all over the world. We
+            warmly welcome all the authors to submit their original research in
+            the upcoming conference AICCT-2025 to share their knowledge and
             experience among each other.
           </p>
           <p className="text-blue-800 font-bold text-justify text-lg">
