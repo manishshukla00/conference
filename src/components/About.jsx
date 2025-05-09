@@ -37,7 +37,7 @@ const About = () => {
             Computing, Communications, and Techniques from all over the world.
             We warmly welcome all the authors to submit their original research
             in the upcoming conference AICCT-2025 to share their knowledge and
-            experience among each othe
+            experience among each other.
           </p>
           <p className="text-blue-800 font-bold text-justify text-lg">
             Papers submitted to AICCT-2025 will undergo a strict double-blind
