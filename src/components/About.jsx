@@ -64,7 +64,7 @@ const About = () => {
             SUBMIT ARTICLE
           </button>
           <a
-            href="/files/Word_Sample_template_8.25 x11_column.docx"
+            href="https://cmt3.research.microsoft.com/AICCT2025/Submission/"
             download
             className="text-purple-600 underline hover:text-purple-800"
           >
