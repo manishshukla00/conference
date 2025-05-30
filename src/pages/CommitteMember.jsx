@@ -16,21 +16,21 @@ const committeeData = [
     members: [
       "Prof. (Dr.) Siddhartha Bhattacharya, VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
       "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India",
-      "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
-    ],
-  },
-  {
-    title: "Technical Chair",
-    members: [
-      "Dr. Sanjeev Kumar, United University, Prayagraj, India",
-      "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
-    ],
-  },
-  {
-    title: "Program Chairs",
-    members: [
       "Dr. Chetan Vyas, United University, Prayagraj, India",
-      "Dr. Santosh Kumar Sharma, United University, Prayagraj, India",
+    ],
+  },
+  {
+    title: "Program Chair",
+    members: [
+      "Dr. Prashant Shukla, HoD (Faculty of Engg. and Technology), United University, Prayagraj, India",
+      "Dr. Sanjeev Kumar, United University, Prayagraj, India",
+    ],
+  },
+  {
+    title: "Technical Chairs",
+    members: [
+      "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
+
       "Dr. Ashutosh Kumar Tripathi, United University, Prayagraj, India",
     ],
   },
