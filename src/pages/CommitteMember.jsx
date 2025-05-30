@@ -32,6 +32,7 @@ const committeeData = [
       "Dr. Manoj Kumar Pal, United University, Prayagraj, India",
 
       "Dr. Ashutosh Kumar Tripathi, United University, Prayagraj, India",
+      "Dr. Santosh Kumar Sharma, United University, Prayagraj, India",
     ],
   },
   {
