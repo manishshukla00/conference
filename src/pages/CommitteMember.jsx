@@ -16,7 +16,7 @@ const committeeData = [
     members: [
       "Prof. (Dr.) Siddhartha Bhattacharya, VSBTU, Ostrava, Czech Republic AUC, Zagreb, Croatia",
       "Prof. (Dr.) Jyoti Sekhar Banerjee, Bengal Institute of Technology, Kolkata, India",
-      "Dr. Chetan Vyas, United University, Prayagraj, India",
+      "Dr. Chetan Vyas, Dean, United University, Prayagraj, India",
     ],
   },
   {
