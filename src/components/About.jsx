@@ -11,11 +11,12 @@ const About = () => {
             alt="United University Logo"
             className="w-40 h-40 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
-          {/* <img
-            src="https://icicct.in/images/tandf.png"
+          <img
+            height={40}
+            src="images/crc.png"
             alt="Taylor & Francis Logo"
-            className="w-40 h-20 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
-          /> */}
+            className="w-40 object-contain transform transition-transform duration-300 hover:scale-110 hover:shadow-lg"
+          />
         </div>
 
         {/* Right Side - Text */}
@@ -39,9 +40,19 @@ const About = () => {
             experience among each other.
           </p>
           <p className="text-blue-800 font-bold text-justify text-lg">
-            Papers submitted to AICCT-2025 will undergo a strict double-blind
-            review process. All accepted and presented papers will be published
-            in the AICCT-2025 Conference Proceedings.
+            The paper will be published in conference Proceedings Series on
+            Futuristic Intelligent and Smart Technologies (FIST), CRC Press,
+            USA. <br /> The Proceedings volume will be sent for Indexing to
+            Scopus for Inclusion after publication. <br /> Selected papers
+            (Extended Version) will be submitted for Scopus/SCIE/SCI Journal
+            Publication. <br /> Special Issue:- Selected Papers (Extended
+            version) will be published in <br /> 1. Recent Advances in Computer
+            Science and Communications, Bentham Science Publishers (Scopus){" "}
+            <br /> 2. International Journal of Sensors, Wireless Communications
+            and Control, Bentham Science Publishers (Scopus) <br /> 3. Journal
+            of Thermal Engineering (ESCI, Scopus) <br /> 4. Sigma Journal of
+            Engineering and Natural Sciences (ESCI) (No APC for any Journal){" "}
+            <br /> 5. Sensors, MDPI journal (SCIE, Scopus) (APC Applicable)
           </p>
         </div>
       </div>
