@@ -56,7 +56,7 @@ const Registration = () => {
               Account Details
             </h2>
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-              Indian Account Details:
+              Account Details:
             </h3>
             <ul className="space-y-2 text-gray-700 text-lg">
               <li>
