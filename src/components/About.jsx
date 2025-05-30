@@ -45,7 +45,7 @@ const About = () => {
             USA. <br /> The Proceedings volume will be sent for Indexing to
             Scopus for Inclusion after publication. <br /> Selected papers
             (Extended Version) will be submitted for Scopus/SCIE/SCI Journal
-            Publication. <br /> Special Issue:- Selected Papers (Extended
+            Publication. <br /> <br /> Special Issue:- Selected Papers (Extended
             version) will be published in <br /> 1. Recent Advances in Computer
             Science and Communications, Bentham Science Publishers (Scopus){" "}
             <br /> 2. International Journal of Sensors, Wireless Communications
