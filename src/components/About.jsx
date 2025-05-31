@@ -60,9 +60,12 @@ const About = () => {
       {/* Buttons Section */}
       <div className="flex justify-center mt-8">
         <div className="flex items-center justify-center flex-wrap gap-4">
-          <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
-            SUBMIT ARTICLE
-          </button>
+          <a href="https://cmt3.research.microsoft.com/AICCT2025/Submission/Index">
+            <button className="px-6 py-2 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-800">
+              SUBMIT ARTICLE
+            </button>{" "}
+            {""}
+          </a>
           <a
             href="/files/Word_Sample_template_8.25 x11_column.docx"
             download
