@@ -30,10 +30,13 @@ const Registration = () => {
                 INR 7000
               </li>
               <li>
-                <span className="font-bold">Academics:</span> INR 8000
+                <span className="font-bold">
+                  <Academician></Academician>:
+                </span>{" "}
+                INR 8000
               </li>
               <li>
-                <span className="font-bold">Industry:</span> INR 10000
+                <span className="font-bold">Industry Person:</span> INR 10000
               </li>
               <li>
                 <span className="font-bold">
@@ -86,7 +89,7 @@ const Registration = () => {
           {/* Registration Link */}
           <div className="text-center">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScOABGZ2Jv_tQrO3mhMXjVTL7f2yfmBX6XaknIFTPD3tSWF8A/viewform?usp=header"
+              href="https://uniteduniversity.edu.in/RegForms/Form1021.aspx"
               className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:scale-105 transform transition-transform"
             >
               Register Here
