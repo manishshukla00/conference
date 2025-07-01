@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const AuthorGuidlines = () => {
   return (
@@ -23,7 +23,16 @@ const AuthorGuidlines = () => {
             </h3>
             <p className="text-lg text-gray-800 mb-4">
               To submit your paper, access the Conference Management Toolkit
-              (Microsoft CMT) via the provided submission link.
+              (Microsoft CMT) via the provided{" "}
+              <Link
+                className="text-purple-600 underline hover:text-purple-800"
+                to={
+                  "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAICCT2025%2FSubmission%2FIndex"
+                }
+              >
+                submission link
+              </Link>
+              .
             </p>
 
             <h3 className="text-2xl font-bold text-purple-700 mb-4">
@@ -58,10 +67,9 @@ const AuthorGuidlines = () => {
               to submit the following agreement to the conference email:
               <a
                 href="mailto:sanjeev.kumar@uniteduniversity.edu.in"
-                className="text-purple-600 underline hover:text-purple-800"
+                className="text-md text-purple-600 underline hover:text-purple-800"
               >
-                {" "}
-                sanjeev.kumar@uniteduniversity.edu.in{" "}
+                sanjeev.kumar@uniteduniversity.edu.in
               </a>
               . Otherwise, the accepted paper will not be published in the
               conference proceedings.

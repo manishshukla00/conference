@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Registration = () => {
   return (
@@ -30,9 +30,7 @@ const Registration = () => {
                 INR 7000
               </li>
               <li>
-                <span className="font-bold">
-                  <Academician></Academician>:
-                </span>{" "}
+                <span className="font-bold">Academician</span>
                 INR 8000
               </li>
               <li>
@@ -88,12 +86,13 @@ const Registration = () => {
 
           {/* Registration Link */}
           <div className="text-center">
-            <a
-              href="https://uniteduniversity.edu.in/RegForms/Form1021.aspx"
+            <Link
+              to="https://uniteduniversity.edu.in/RegForms/Form1021.aspx"
               className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:scale-105 transform transition-transform"
+              target="_blank"
             >
               Register Here
-            </a>
+            </Link>
           </div>
         </div>
       </div>
