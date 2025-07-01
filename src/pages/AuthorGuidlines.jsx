@@ -29,6 +29,7 @@ const AuthorGuidlines = () => {
                 to={
                   "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAICCT2025%2FSubmission%2FIndex"
                 }
+                target="blank"
               >
                 submission link
               </Link>
@@ -58,7 +59,14 @@ const AuthorGuidlines = () => {
                 <span className="font-bold">
                   To download Conference Brochure:
                 </span>
-                <span className="text-gray-500">Link coming soon...</span>
+                {/* <span className="text-gray-500">Link coming soon...</span> */}
+                <a
+                  href="/files/AICCT-2K25-Brochure.pdf"
+                  download
+                  className="text-purple-600 underline hover:text-purple-800"
+                >
+                  Click here to download
+                </a>
               </li>
             </ul>
 
@@ -79,11 +87,25 @@ const AuthorGuidlines = () => {
                 <span className="font-bold">
                   Publishing Agreement Form (Copyright Form):
                 </span>
-                <span className="text-gray-500">Link coming soon...</span>
+                {/* <span className="text-gray-500">Link coming soon...</span> */}
+                <a
+                  href="/files/Copyright_Form_AICCT_2K25.docx"
+                  download
+                  className="text-purple-600 underline hover:text-purple-800"
+                >
+                  Click here to download
+                </a>
               </li>
               <li>
                 <span className="font-bold">Permission Guideline:</span>
-                <span className="text-gray-500">Link coming soon...</span>
+                {/* <span className="text-gray-500">Link coming soon...</span> */}
+                <a
+                  href="/file/Permission_Guideline_AICCT_2K25.zip"
+                  download
+                  className="text-purple-600 underline hover:text-purple-800"
+                >
+                  Click here to download
+                </a>
               </li>
             </ul>
             <br></br>
