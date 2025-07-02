@@ -13,8 +13,8 @@ const Speakers = () => {
     {
       name: "Prof. Sanjay Mishra",
       image: "/images/sanjay-misra.png",
-      designation: "Professor of Computer Engineering",
-      department: " Covenant University",
+      designation: "Senior Scientist",
+      department: "Institute for Energy Technology, Halden",
     },
     {
       name: "Prof. Sekhar Verma",
