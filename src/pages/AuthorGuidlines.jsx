@@ -61,7 +61,7 @@ const AuthorGuidlines = () => {
                 </span>
                 {/* <span className="text-gray-500">Link coming soon...</span> */}
                 <a
-                  href="/files/AICCT-2K25-Brochure.pdf"
+                  href="/files/AICCT.pdf"
                   download
                   className="text-purple-600 underline hover:text-purple-800"
                 >
@@ -89,7 +89,7 @@ const AuthorGuidlines = () => {
                 </span>
                 {/* <span className="text-gray-500">Link coming soon...</span> */}
                 <a
-                  href="/files/Copyright_Form_AICCT_2K25.docx"
+                  href="/files/Copyright-Form.pdf"
                   download
                   className="text-purple-600 underline hover:text-purple-800"
                 >
@@ -100,7 +100,7 @@ const AuthorGuidlines = () => {
                 <span className="font-bold">Permission Guideline:</span>
                 {/* <span className="text-gray-500">Link coming soon...</span> */}
                 <a
-                  href="/file/Permission_Guideline_AICCT_2K25.zip"
+                  href="/file/Permission-guidelines.zip"
                   download
                   className="text-purple-600 underline hover:text-purple-800"
                 >

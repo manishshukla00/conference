@@ -11,7 +11,7 @@ const Speakers = () => {
       department: "IIIT Ranchi",
     },
     {
-      name: "Prof. Sanjay Mishra",
+      name: "Prof. Dr. Sanjay Mishra",
       image: "/images/sanjay-misra.png",
       designation: "Senior Scientist",
       department: "Institute for Energy Technology, Halden",
