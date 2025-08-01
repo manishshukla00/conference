@@ -216,7 +216,7 @@ const Navbar = () => {
             Registration
           </Link>
           <Link
-            to="/speakers"
+            to="/keynotespeakers"
             onClick={toggleMenu}
             className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >

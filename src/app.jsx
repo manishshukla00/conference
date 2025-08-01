@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -10,6 +9,7 @@ import Speakers from "./pages/Speakers";
 import Registration from "./pages/Registration";
 import AuthorGuidlines from "./pages/AuthorGuidlines"; // Import the AuthorGuidlines page
 import PublicationEthics from "./pages/PublicationEthics";
+// import Keynotespeakers from "./pages/Keynotespeakers";
 
 const app = () => {
   return (
@@ -26,6 +26,7 @@ const app = () => {
           <Route path="/author-guidelines" element={<AuthorGuidlines />} />
           <Route path="/author-guidelines" element={<AuthorGuidlines />} />
           <Route path="/publication-ethics" element={<PublicationEthics />} />
+          {/* <Route path="/keynotespeakers" element={<Keynotespeakers />} /> */}
           {/* New Route */}
           {/* <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/sponsors" element={<Sponsors />} />

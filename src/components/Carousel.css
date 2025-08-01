@@ -1,3 +1,17 @@
+/* Marquee animation for the deadline banner */
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 12s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 @keyframes slideInLeft {
   from {
     transform: translateX(-100%);

@@ -11,6 +11,20 @@ const Carousel = () => {
           "url(https://gyaanarth.com/wp-content/uploads/2022/05/United-University-Cover-Page-7.jpg)",
       }}
     >
+      {/* Scrolling Deadline Banner */}
+      <div className="absolute top-32 left-0 w-full z-20 pointer-events-none">
+        <div className="overflow-hidden w-full">
+          <div
+            className="whitespace-nowrap animate-marquee font-extrabold text-2xl md:text-4xl text-red-500 bg-yellow-200 py-2 shadow-lg border-b-4 border-red-500"
+            style={{
+              textShadow: "2px 2px 8px #fff, 2px 2px 8px #fbbf24",
+            }}
+          >
+            Paper Submission Deadline Extended: August 15, 2025
+          </div>
+        </div>
+      </div>
+
       {/* Black overlay with opacity */}
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
