@@ -16,7 +16,7 @@ const Registration = () => {
             <h2 className="text-xl font-bold text-purple-700 mb-2">
               Last Date of Registration:
             </h2>
-            <p className="text-gray-700 text-lg">August 5, 2025</p>
+            <p className="text-gray-700 text-lg">August 25, 2025</p>
           </div>
 
           {/* Registration Fees */}
