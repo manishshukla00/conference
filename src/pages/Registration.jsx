@@ -43,11 +43,11 @@ const Registration = () => {
                 USD 200
               </li>
               <li>
-                <span className="font-bold">Foreign Academics:</span> USD 250
+                <span className="font-bold">Foreign Academics:</span> USD 200
               </li>
-              <li>
+              {/* <li>
                 <span className="font-bold">Foreign Industry:</span> USD 300
-              </li>
+              </li> */}
             </ul>
             {/* Terms and Conditions Note */}
             <div className="mt-4 text-sm text-gray-700 bg-yellow-100 border-l-4 border-yellow-500 p-3 rounded">
