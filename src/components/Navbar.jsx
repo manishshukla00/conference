@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
+  const toggleDropdown = (dropdownName) => {
+    setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
   };
 
   return (
@@ -64,7 +64,7 @@ const Navbar = () => {
           {/* Call for Papers with Dropdown */}
           <div className="relative">
             <button
-              onClick={toggleDropdown}
+              onClick={() => toggleDropdown("callforpapers")}
               className="flex items-center text-white transition-transform transform hover:scale-105 group focus:outline-none"
             >
               <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
@@ -72,7 +72,7 @@ const Navbar = () => {
               </span>
               <svg
                 className={`w-4 h-4 ml-2 transform ${
-                  isDropdownOpen ? "rotate-180" : "rotate-0"
+                  openDropdown === "callforpapers" ? "rotate-180" : "rotate-0"
                 } transition-transform`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -87,25 +87,25 @@ const Navbar = () => {
                 />
               </svg>
             </button>
-            {isDropdownOpen && (
+            {openDropdown === "callforpapers" && (
               <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-lg">
                 <Link
                   to="/callforpapers"
-                  onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                  onClick={() => setOpenDropdown(null)}
                   className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
                 >
                   Call for Papers
                 </Link>
                 <Link
                   to="/author-guidelines"
-                  onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                  onClick={() => setOpenDropdown(null)}
                   className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
                 >
                   Submission
                 </Link>
                 <Link
                   to="/publication-ethics"
-                  onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                  onClick={() => setOpenDropdown(null)}
                   className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
                 >
                   Publication Ethics
@@ -114,26 +114,54 @@ const Navbar = () => {
             )}
           </div>
 
+          {/* Speakers with Dropdown */}
+          <div className="relative">
+            <button
+              onClick={() => toggleDropdown("speakers")}
+              className="flex items-center text-white transition-transform transform hover:scale-105 group focus:outline-none"
+            >
+              <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                Speakers
+              </span>
+              <svg
+                className={`w-4 h-4 ml-2 transform ${
+                  openDropdown === "speakers" ? "rotate-180" : "rotate-0"
+                } transition-transform`}
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            {openDropdown === "speakers" && (
+              <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-lg z-10">
+                <Link
+                  to="/speakers"
+                  onClick={() => setOpenDropdown(null)}
+                  className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
+                >
+                  Speaker
+                </Link>
+                <Link
+                  to="/keynotespeakers"
+                  onClick={() => setOpenDropdown(null)}
+                  className="block px-4 py-2 text-gray-800 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 hover:text-white rounded-lg transition-colors"
+                >
+                  Keynote Speaker
+                </Link>
+              </div>
+            )}
+          </div>
+
           <Link
-            to="/registration"
-            className="relative text-white transition-transform transform hover:scale-105 group"
-          >
-            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
-              Registration
-            </span>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
-          </Link>
-          <Link
-            to="/speakers"
-            className="relative text-white transition-transform transform hover:scale-105 group"
-          >
-            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
-              Speakers
-            </span>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
-          </Link>
-          <Link
-            to="/"
+            to="/contact"
             className="relative text-white transition-transform transform hover:scale-105 group"
           >
             <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
@@ -215,15 +243,26 @@ const Navbar = () => {
           >
             Registration
           </Link>
+          {/* Speakers Dropdown for Mobile */}
+          <div className="flex flex-col items-center">
+            <span className="text-2xl font-bold mb-2">Speakers</span>
+            <Link
+              to="/speakers"
+              onClick={toggleMenu}
+              className="text-xl font-medium hover:text-blue-300 transition-colors transform hover:scale-105 mb-1"
+            >
+              Speaker
+            </Link>
+            <Link
+              to="/keynotespeakers"
+              onClick={toggleMenu}
+              className="text-xl font-medium hover:text-blue-300 transition-colors transform hover:scale-105"
+            >
+              Keynote Speaker
+            </Link>
+          </div>
           <Link
-            to="/speakers"
-            onClick={toggleMenu}
-            className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
-          >
-            Speakers
-          </Link>
-          <Link
-            to="/"
+            to="/contact"
             onClick={toggleMenu}
             className="text-2xl font-bold hover:text-blue-300 transition-colors transform hover:scale-110"
           >

@@ -102,13 +102,35 @@ const committeeData = [
 
 const CommitteMember = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8">
+    <div
+      className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8"
+      style={{
+        fontFamily: "'Montserrat', 'Roboto', Arial, sans-serif",
+      }}
+    >
       <div className="max-w-7xl mx-auto pt-20">
         {/* Page Title */}
-        <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6 pt-4">
+        <h1
+          className="text-4xl font-extrabold text-center text-purple-800 mb-6 pt-4"
+          style={{
+            fontFamily: "'Montserrat', Arial, sans-serif",
+            fontWeight: 700,
+            letterSpacing: "1px",
+            lineHeight: "1.2",
+          }}
+        >
           Conference Committees
         </h1>
-        <p className="text-lg text-gray-800 leading-relaxed mb-8 text-center">
+        <p
+          className="text-lg text-gray-800 leading-relaxed mb-8 text-center"
+          style={{
+            fontFamily: "'Roboto', Arial, sans-serif",
+            fontWeight: 400,
+            fontSize: "1.15rem",
+            lineHeight: "1.7",
+            letterSpacing: "0.2px",
+          }}
+        >
           Meet the esteemed members of the conference committees who are
           contributing to the success of AICCT-2025.
         </p>
@@ -117,10 +139,23 @@ const CommitteMember = () => {
         <div className="mb-8 flex justify-center">
           <div className="bg-gradient-to-r from-purple-700 via-pink-600 to-orange-500 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform w-full max-w-3xl">
             <div className="bg-white rounded-lg p-6">
-              <h2 className="text-3xl font-extrabold text-purple-800 mb-4 text-center">
+              <h2
+                className="text-3xl font-extrabold text-purple-800 mb-4 text-center"
+                style={{
+                  fontFamily: "'Montserrat', Arial, sans-serif",
+                  fontWeight: 600,
+                  letterSpacing: "0.5px",
+                }}
+              >
                 Chief Patron
               </h2>
-              <ul className="list-none space-y-2 text-lg text-center text-gray-700">
+              <ul
+                className="list-none space-y-2 text-lg text-center text-gray-700"
+                style={{
+                  fontFamily: "'Roboto', Arial, sans-serif",
+                  fontWeight: 400,
+                }}
+              >
                 {committeeData[0].members.map((member, idx) => (
                   <li key={idx}>{member}</li>
                 ))}
@@ -133,10 +168,23 @@ const CommitteMember = () => {
         <div className="mb-8 flex justify-center">
           <div className="bg-gradient-to-r from-purple-700 via-pink-600 to-orange-500 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform w-full max-w-3xl">
             <div className="bg-white rounded-lg p-6">
-              <h2 className="text-3xl font-extrabold text-purple-800 mb-4 text-center">
+              <h2
+                className="text-3xl font-extrabold text-purple-800 mb-4 text-center"
+                style={{
+                  fontFamily: "'Montserrat', Arial, sans-serif",
+                  fontWeight: 600,
+                  letterSpacing: "0.5px",
+                }}
+              >
                 Patron
               </h2>
-              <ul className="list-none space-y-2 text-lg text-center text-gray-700">
+              <ul
+                className="list-none space-y-2 text-lg text-center text-gray-700"
+                style={{
+                  fontFamily: "'Roboto', Arial, sans-serif",
+                  fontWeight: 400,
+                }}
+              >
                 {committeeData[1].members.map((member, idx) => (
                   <li key={idx}>{member}</li>
                 ))}
@@ -153,10 +201,24 @@ const CommitteMember = () => {
               className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 p-1 rounded-lg shadow-lg hover:scale-105 transition-transform"
             >
               <div className="bg-white rounded-lg p-4 h-full">
-                <h2 className="text-xl font-bold text-purple-700 mb-4 text-center">
+                <h2
+                  className="text-xl font-bold text-purple-700 mb-4 text-center"
+                  style={{
+                    fontFamily: "'Montserrat', Arial, sans-serif",
+                    fontWeight: 600,
+                  }}
+                >
                   {committee.title}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 text-sm text-justify text-gray-700">
+                <ul
+                  className="list-disc list-inside space-y-2 text-sm text-justify text-gray-700"
+                  style={{
+                    fontFamily: "'Roboto', Arial, sans-serif",
+                    fontWeight: 400,
+                    fontSize: "1rem",
+                    lineHeight: "1.7",
+                  }}
+                >
                   {committee.members.map((member, idx) => (
                     <li key={idx}>{member}</li>
                   ))}

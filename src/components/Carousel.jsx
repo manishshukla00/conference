@@ -9,15 +9,18 @@ const Carousel = () => {
       style={{
         backgroundImage:
           "url(https://gyaanarth.com/wp-content/uploads/2022/05/United-University-Cover-Page-7.jpg)",
+        fontFamily: "'Montserrat', 'Roboto', Arial, sans-serif",
       }}
     >
       {/* Scrolling Deadline Banner */}
       <div className="absolute top-32 left-0 w-full z-20 pointer-events-none">
         <div className="overflow-hidden w-full">
           <div
-            className="whitespace-nowrap animate-marquee font-extrabold text-2xl md:text-2xl text-red-500 bg-yellow-200 py-0.5 shadow-lg border-b-4 border-red-500"
+            className="whitespace-nowrap animate-marquee font-bold text-xl md:text-2xl text-red-600 bg-yellow-100 py-1 border-b-4 border-yellow-400"
             style={{
-              textShadow: "2px 2px 8px #fff, 2px 2px 8px #fbbf24",
+              fontFamily: "'Montserrat', Arial, sans-serif",
+              letterSpacing: "1px",
+              // textShadow removed
             }}
           >
             Paper Submission Deadline Extended: August 15, 2025
@@ -30,20 +33,60 @@ const Carousel = () => {
 
       {/* Centered Text */}
       <div className="relative z-10 text-center text-white px-4">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 text-yellow-400 slide-in-left">
+        <h1
+          className="text-4xl md:text-6xl font-extrabold mb-4 text-yellow-400 slide-in-left"
+          style={{
+            fontFamily: "'Montserrat', Arial, sans-serif",
+            letterSpacing: "2px",
+            lineHeight: "1.15",
+            // textShadow removed
+          }}
+        >
           1st International Conference on
         </h1>
-        <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-blue-300 slide-in-right">
+        <h2
+          className="text-2xl md:text-4xl font-semibold mb-6 text-blue-300 slide-in-right"
+          style={{
+            fontFamily: "'Montserrat', Arial, sans-serif",
+            letterSpacing: "1px",
+            lineHeight: "1.2",
+            // textShadow removed
+          }}
+        >
           Advances in Intelligent Computing and Communication Technology <br />
-          (AICCT-2025)
+          <span className="text-pink-400 font-bold">(AICCT-2025)</span>
         </h2>
-        <p className="text-lg md:text-2xl font-medium mb-4 text-green-300 slide-in-left">
+        <p
+          className="text-lg md:text-2xl font-medium mb-4 text-green-300 slide-in-left"
+          style={{
+            fontFamily: "'Roboto', Arial, sans-serif",
+            fontWeight: 500,
+            letterSpacing: "0.5px",
+            // textShadow removed
+          }}
+        >
           13-14 September, Organized by
         </p>
-        <p className="text-lg md:text-2xl font-medium text-pink-300 slide-in-right">
+        <p
+          className="text-lg md:text-2xl font-medium text-pink-300 slide-in-right"
+          style={{
+            fontFamily: "'Roboto', Arial, sans-serif",
+            fontWeight: 500,
+            letterSpacing: "0.5px",
+            // textShadow removed
+          }}
+        >
           Department of Computer Science & Engineering
         </p>
-        <p className="text-lg md:text-2xl font-medium text-purple-300 slide-in-left">
+        <p
+          className="text-lg md:text-2xl font-medium text-purple-300 slide-in-left"
+          style={{
+            fontFamily: "'Roboto', Arial, sans-serif",
+            fontWeight: 500,
+            letterSpacing: "0.5px",
+            // textShadow removed
+          }}
+        >
           United University, Prayagraj, India
         </p>
       </div>
