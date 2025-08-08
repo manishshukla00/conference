@@ -11,6 +11,7 @@ import AuthorGuidlines from "./pages/AuthorGuidlines"; // Import the AuthorGuidl
 import PublicationEthics from "./pages/PublicationEthics";
 import Keynotespeakers from "./pages/Keynotespeakers";
 import Contact from "./pages/Contact";
+import Tpc from "./pages/Tpc";
 
 const app = () => {
   return (
@@ -29,6 +30,7 @@ const app = () => {
           <Route path="/publication-ethics" element={<PublicationEthics />} />
           <Route path="/keynotespeakers" element={<Keynotespeakers />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/technicalprogramcommitte" element={<Tpc />} />
           {/* New Route */}
           {/* <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/sponsors" element={<Sponsors />} />

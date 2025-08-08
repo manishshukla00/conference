@@ -120,7 +120,7 @@ const Keynotespeakers = () => {
         {/* Page Title */}
         <h1 className="text-4xl font-extrabold text-center text-purple-800 mb-6 pt-8">
           Meet Our{" "}
-          <span className="text-pink-500">Keynote Speakers/Session Chair</span>
+          <span className="text-pink-500">Keynote Speakers/Sessions Chair</span>
         </h1>
         <p className="text-lg text-gray-800 leading-relaxed mb-8 text-center">
           Our conference features distinguished speakers who are experts in
@@ -128,7 +128,7 @@ const Keynotespeakers = () => {
         </p>
 
         {/* Carousel Controls (Icons centered vertically beside carousel grid) */}
-        <div className="relative flex items-center">
+        <div className="relative flex items-center mr2">
           {/* Left Icon */}
           <button
             onClick={handlePrev}
@@ -136,7 +136,7 @@ const Keynotespeakers = () => {
             aria-label="Previous"
             style={{
               position: "absolute",
-              left: "0.5rem", // 8px from left edge
+              left: 0,
               top: "50%",
               transform: "translateY(-50%)",
             }}
@@ -155,10 +155,7 @@ const Keynotespeakers = () => {
               ${itemsPerSlide === 2 ? "grid-cols-1 sm:grid-cols-2" : ""}
               ${itemsPerSlide === 1 ? "grid-cols-1" : ""}
             `}
-            style={{
-              marginLeft: "3rem", // 48px space for left icon
-              marginRight: "3rem", // 48px space for right icon
-            }}
+            style={{ margin: "0 56px" }} // Add space for icons
           >
             {visibleSpeakers.map((speaker, index) => (
               <div
@@ -192,7 +189,7 @@ const Keynotespeakers = () => {
             aria-label="Next"
             style={{
               position: "absolute",
-              right: "0.5rem", // 8px from right edge
+              right: 0,
               top: "50%",
               transform: "translateY(-50%)",
             }}
