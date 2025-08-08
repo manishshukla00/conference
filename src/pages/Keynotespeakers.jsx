@@ -19,6 +19,11 @@ const Keynotespeakers = () => {
       designation: "McLean, USA",
     },
     {
+      name: "Dr. Rajesh Prasad",
+      image: "/images/17.jpg",
+      designation: "Professor, AKGEC , India",
+    },
+    {
       name: "Reena Chandra",
       image: "/images/4.jpg",
       designation: "Amazon Inc, USA ",
@@ -28,11 +33,11 @@ const Keynotespeakers = () => {
       image: "/images/5.jpg",
       designation: "SAIC/Department of Veteran Affairs, USA",
     },
-    // {
-    //   name: "Vishal Sharma",
-    //   image: "/images/6.jpg",
-    //   designation: "Broadridge Financial Services, USA",
-    // },
+    {
+      name: "Dr. Mukund Pratap Singh",
+      image: "/images/18.jpg",
+      designation: "Bennet University, Noida, India",
+    },
     {
       name: "Ajay Prasad",
       image: "/images/7.jpg",
@@ -42,6 +47,11 @@ const Keynotespeakers = () => {
       name: "Shilpi Yadav",
       image: "/images/8.jpg",
       designation: "IBM, USA",
+    },
+    {
+      name: "Dr. Rajesh Kumar",
+      image: "/images/19.jpg",
+      designation: "University of Allahabad",
     },
     {
       name: "Savi Grover",
@@ -54,6 +64,11 @@ const Keynotespeakers = () => {
       designation: "Humana Inc., USA",
     },
     {
+      name: "Dr. Ashish Kumar Mishra",
+      image: "/images/20.jpg",
+      designation: "REC Ambedkar Nagar",
+    },
+    {
       name: "Swapnil Joijode",
       image: "/images/11.jpg",
       designation: "Hauppauge Inc., USA",
@@ -62,6 +77,11 @@ const Keynotespeakers = () => {
       name: "Deepak Pai",
       image: "/images/12.jpg",
       designation: "IBM, USA",
+    },
+    {
+      name: "Dr. Manish Raj",
+      image: "/images/21.jpg",
+      designation: "Galgotias University, Greater Noida",
     },
     {
       name: "Sheeba Bromia Amalraj",
@@ -77,6 +97,11 @@ const Keynotespeakers = () => {
       name: "Kishore Bandela",
       image: "/images/15.jpg",
       designation: "MassDOT, USA",
+    },
+    {
+      name: "Dr. Abdul Aleem",
+      image: "/images/22.jpg",
+      designation: " Galgotias University, Greater Noida",
     },
     {
       name: "Karthik Sirigiri",

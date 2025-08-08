@@ -103,6 +103,10 @@ const tpcMembers = [
     affiliation: "Banasthali Vidyapith, India",
   },
   {
+    name: "Dr. Mahima Shanker Pandey",
+    affiliation: "Galgotias College of Engineering & Technology, Greater Noida",
+  },
+  {
     name: "Dr. Neeraj Chugh",
     affiliation:
       "University of Petroleum and Energy Studies, Dehradun, Uttarakhand",
@@ -192,6 +196,77 @@ const tpcMembers = [
   {
     name: "Dr. Prince Rajpoot",
     affiliation: "Rajkiya Engineering College Ambedkar Nagar, India",
+  },
+  {
+    name: "Murali Natti",
+    affiliation: "Apple Inc., USA",
+  },
+  // {
+  //   name: "Wazahat Ahmed Chowdhury",
+  //    //   affiliation: "Matrix Medical Health– Phoenix, USA",
+  // },
+  {
+    name: "Sagar Kesarpu",
+    affiliation: "McLean, USA",
+  },
+  {
+    name: "Reena Chandra",
+    affiliation: "Amazon Inc, USA ",
+  },
+  {
+    name: "Swati Karni",
+    affiliation: "SAIC/Department of Veteran Affairs, USA",
+  },
+  // {
+  //   name: "Vishal Sharma",
+  //    //   affiliation: "Broadridge Financial Services, USA",
+  // },
+  {
+    name: "Ajay Prasad",
+    affiliation: "Apple, USA",
+  },
+  {
+    name: "Shilpi Yadav",
+    affiliation: "IBM, USA",
+  },
+  {
+    name: "Savi Grover",
+    affiliation: "NBC Universal, USA",
+  },
+  {
+    name: "Naga Sai Mrunal",
+
+    affiliation: "Humana Inc., USA",
+  },
+  {
+    name: "Swapnil Joijode",
+
+    affiliation: "Hauppauge Inc., USA",
+  },
+  {
+    name: "Deepak Pai",
+
+    affiliation: "IBM, USA",
+  },
+  {
+    name: "Sheeba Bromia Amalraj",
+
+    affiliation: "TBC Corporation, USA",
+  },
+  {
+    name: "Vasudevan Senathi Ramdoss",
+
+    affiliation: "Financial investment sector, USA",
+  },
+  {
+    name: "Kishore Bandela",
+
+    affiliation: "MassDOT, USA",
+  },
+  {
+    name: "Karthik Sirigiri",
+
+    affiliation: "RedMane Technology LLC, USA ",
   },
 ];
 
