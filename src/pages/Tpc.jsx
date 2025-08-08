@@ -2,7 +2,7 @@ import React from "react";
 
 const tpcMembers = [
   { name: "Dr. Shashi Bhushan", affiliation: "Amity University Punjab, India" },
-  { name: "Dr. Manoj Kumar", affiliation: "University of Wollongong in Dubai" },
+  { name: "Dr. Manoj Kumar", affiliation: "University of Wollongong Dubai" },
   {
     name: "Dr. Sujith Jayaprakash",
     affiliation: "BlueCrest University College, Ghana",
@@ -37,7 +37,6 @@ const tpcMembers = [
   },
   { name: "Dr. Olumide Owolabi", affiliation: "University of Abuja, Nigeria" },
   { name: "Dr. Kirti Seth", affiliation: "Inha University Tashkeny" },
-  { name: "Dr. Sanjeev Kumar", affiliation: "United University" },
   {
     name: "Dr. Suleiman Salihu Jauro",
     affiliation: "Gombe State University Nigeria",
@@ -80,7 +79,7 @@ const tpcMembers = [
   },
   {
     name: "Dr. Bireshwar Dass Mazumdar",
-    affiliation: "United University Prayagraj",
+    affiliation: "Bennet University Prayagraj",
   },
   {
     name: "Dr. Radha Raman Chandan",
@@ -147,18 +146,6 @@ const tpcMembers = [
   },
   { name: "Dr. B D Mazumdar", affiliation: "Bennet University, Noida, India" },
   {
-    name: "Dr. Prashant Shukla",
-    affiliation: "United University, Prayagraj, India",
-  },
-  {
-    name: "Dr. Manoj Kumar Pal",
-    affiliation: "United University, Prayagraj, India",
-  },
-  {
-    name: "Dr.Shadab Irfan",
-    affiliation: "United University, Prayagraj, India",
-  },
-  {
     name: "Dr. Mukund Pratap Singh",
     affiliation: "Bennett University, Greater Noida",
   },
@@ -170,7 +157,7 @@ const tpcMembers = [
   {
     name: "Dr. Shabir Ali",
     affiliation:
-      "Bharati Vidyapeeth Deemed to be University, Department of Engineering and Technology Navi, Mumbai",
+      "Galgotias University, Department of Engineering and Technology, Greater Noida",
   },
   {
     name: "Dr. Tribhuvan Singh",
