@@ -211,6 +211,19 @@ const Navbar = () => {
             )}
           </div>
           <Link
+            to="/registration"
+            className="relative text-white transition-transform transform hover:scale-105 group"
+            style={{
+              fontFamily: "'Montserrat', Arial, sans-serif",
+              fontWeight: 600,
+            }}
+          >
+            <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+              Registration
+            </span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 transition-all duration-500 group-hover:w-full"></span>
+          </Link>
+          <Link
             to="/contact"
             className="relative text-white transition-transform transform hover:scale-105 group"
             style={{
