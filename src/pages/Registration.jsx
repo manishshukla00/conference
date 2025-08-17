@@ -53,9 +53,9 @@ const Registration = () => {
             <div className="mt-4 text-sm text-gray-700 bg-yellow-100 border-l-4 border-yellow-500 p-3 rounded">
               <span className="font-semibold text-orange-700">Note:</span> The
               fees mentioned above apply to a standard article of up to 5 pages.
-              Additional pages, up to a maximum of 8 pages, will incur an extra
-              charge of <span className="font-bold">₹1000 per page</span> for
-              Indian authors and <span className="font-bold">$15 per page</span>{" "}
+              Additional pages, up to a maximum of 7 pages, will incur an extra
+              charge of <span className="font-bold">₹1500 per page</span> for
+              Indian authors and <span className="font-bold">$20 per page</span>
               for international authors.
             </div>
           </div>
