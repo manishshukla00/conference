@@ -91,7 +91,7 @@ const Keynotespeakers = () => {
     {
       name: "Vasudevan Senathi Ramdoss",
       image: "/images/14.jpg",
-      designation: "Financial investment sector, USA",
+      designation: " Senior performance Engineer & independent researcher",
     },
     {
       name: "Kishore Bandela",
