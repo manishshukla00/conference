@@ -44,6 +44,11 @@ const Keynotespeakers = () => {
       designation: "Apple, USA",
     },
     {
+      name: "Prassanna R Rajgopal",
+      image: "/images/23.jpg",
+      designation: "Infosys, United States. ",
+    },
+    {
       name: "Shilpi Yadav",
       image: "/images/8.jpg",
       designation: "IBM, USA",
