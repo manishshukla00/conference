@@ -46,7 +46,7 @@ const Keynotespeakers = () => {
     {
       name: "Prassanna R Rajgopal",
       image: "/images/23.jpg",
-      designation: "Infosys, United States. ",
+      designation: "Cyber security principal, Infosys, United States. ",
     },
     {
       name: "Shilpi Yadav",
