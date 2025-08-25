@@ -39,7 +39,7 @@ const ImportantDates = () => {
         </span>
       ),
     },
-    { event: "Early Bird Registration:", date: "August 25, 2025" },
+    { event: "Early Bird Registration:", date: "August 30, 2025" },
     { event: "Conference Date", date: "September 13-14, 2025" },
     {
       event: "Paper Submission Guidelines",
