@@ -100,7 +100,7 @@ const AuthorGuidlines = () => {
                 <span className="font-bold">Permission Guideline:</span>
                 {/* <span className="text-gray-500">Link coming soon...</span> */}
                 <a
-                  href="/file/Permission-guidelines.zip"
+                  href="/files/Permission-guidelines.zip"
                   download
                   className="text-purple-600 underline hover:text-purple-800"
                 >
