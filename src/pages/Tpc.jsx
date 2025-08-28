@@ -234,6 +234,10 @@ const tpcMembers = [
     affiliation: "NBC Universal, USA",
   },
   {
+    name: "Prassanna R Rajgopal",
+    affiliation: "Cybersecurity Leader and Independent Researcher, USA.",
+  },
+  {
     name: "Naga Sai Mrunal",
 
     affiliation: "Humana Inc., USA",
