@@ -15,7 +15,7 @@ const Speakers = () => {
       department: "Institute for Energy Technology, Norway",
     },
     {
-      name: "Prof. Sekhar Verma",
+      name: "Prof. Shekhar Verma",
       image: "/images/sverma.jpg",
       designation: "Professor in CSE",
       department: "Indian Institute of Information Technology - Allahabad",
