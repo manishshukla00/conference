@@ -5,7 +5,7 @@ const Speakers = () => {
 
   const cards = [
     {
-      name: "Prof. Rajeev Srivastva",
+      name: "Prof. Rajeev Srivastava",
       image: "/images/RajeevPhoto1.jpeg",
       designation: "Director",
       department: "IIIT Ranchi",
