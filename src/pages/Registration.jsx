@@ -109,7 +109,10 @@ const Registration = () => {
             </button>
             {showPopup && (
               <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-40">
-                <div className="bg-white rounded-xl shadow-2xl p-8 max-w-sm w-full text-center relative animate-fadeIn border-4 border-purple-400">
+                <div
+                  className="bg-white rounded-xl shadow-2xl p-8 max-w-sm w-full text-center relative animate-fadeIn border-4 border-purple-400"
+                  style={{ fontFamily: "'Poppins', sans-serif" }}
+                >
                   <h2 className="text-2xl font-bold mb-4 text-red-600">
                     Registration Closed
                   </h2>
