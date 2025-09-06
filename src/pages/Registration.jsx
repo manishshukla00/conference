@@ -1,6 +1,12 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Registration = () => {
+  const [showPopup, setShowPopup] = useState(false);
+  const handleRegisterClick = (e) => {
+    e.preventDefault();
+    setShowPopup(true);
+  };
+  const handleClosePopup = () => setShowPopup(false);
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 p-8">
       <div className="max-w-4xl mt-20 mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
@@ -95,13 +101,45 @@ const Registration = () => {
 
           {/* Registration Link */}
           <div className="text-center">
-            <Link
-              to="https://uniteduniversity.edu.in/RegForms/Form1021.aspx"
-              className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:scale-105 transform transition-transform"
-              target="_blank"
+            <button
+              onClick={handleRegisterClick}
+              className="inline-block bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:scale-105 transform transition-transform focus:outline-none"
             >
               Register Here
-            </Link>
+            </button>
+            {showPopup && (
+              <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-40">
+                <div className="bg-white rounded-xl shadow-2xl p-8 max-w-sm w-full text-center relative animate-fadeIn border-4 border-purple-400">
+                  <h2 className="text-2xl font-bold mb-4 text-red-600">
+                    Registration Closed
+                  </h2>
+                  <p className="mb-6 text-lg text-gray-800">
+                    Thank you for your interest. Registration is now closed.
+                  </p>
+                  <button
+                    onClick={handleClosePopup}
+                    className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-semibold px-5 py-2 rounded-lg shadow hover:scale-105 transition-transform"
+                  >
+                    Close
+                  </button>
+                  <span
+                    className="absolute top-2 right-4 cursor-pointer text-purple-500 text-xl font-bold"
+                    onClick={handleClosePopup}
+                  >
+                    &times;
+                  </span>
+                </div>
+                <style>{`
+                  @keyframes fadeIn {
+                    from { opacity: 0; transform: scale(0.95); }
+                    to { opacity: 1; transform: scale(1); }
+                  }
+                  .animate-fadeIn {
+                    animation: fadeIn 0.3s ease;
+                  }
+                `}</style>
+              </div>
+            )}
           </div>
         </div>
       </div>
