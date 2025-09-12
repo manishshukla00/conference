@@ -112,7 +112,7 @@ const Carousel = () => {
           Offline Presentation Schedule Day-1
         </a>
         <a
-          href="files/AICCTOnlineScheduleDay1.pdf"
+          href="files/AICCTOnlineScheduleDay1-4.pdf"
           download
           className="w-full md:w-auto text-center bg-gradient-to-r from-blue-600 via-purple-400 to-pink-400 text-white font-extrabold py-2 px-4 rounded-2xl shadow-2xl hover:scale-105 transform transition-all duration-200 hover:from-purple-500 hover:to-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-300 border-2 border-white flex items-center justify-center gap-2"
           style={{
